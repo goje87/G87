@@ -1,0 +1,33 @@
+.GFC-userPanel
+{
+  min-width: 130px;
+  position: relative;
+}
+
+div.GFC-userPanel-name
+{
+  margin-left: 40px;
+  padding-top: 5px;
+}
+
+.GFC-userPanel-pic
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+div.GFC-userPanel-options
+{
+  margin-left: 40px;
+  font-size: 8pt;
+}
+
+.GFC-loginButton img
+{
+  vertical-align: -3px;
+}

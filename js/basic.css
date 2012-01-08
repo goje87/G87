@@ -1,0 +1,53 @@
+body, td
+{
+  font-family: Arial, Sans;
+  font-size: 10pt;
+}
+
+a img
+{
+  border: none;
+}
+
+form
+{
+  margin: 0px;
+}
+
+input[type="text"], input[type="password"], textarea
+{
+  border: 1px solid #cccccc;
+}
+
+input[type="button"], input[type="submit"], button
+{
+  border: 1px solid #cccccc;
+  background-image: url('./images/button-bg.jpeg');
+  background-position: center center;
+}
+
+.clear
+{
+  clear: both;
+}
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.ellipsis.multiline {
+  white-space: normal;
+}

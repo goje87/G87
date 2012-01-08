@@ -1,0 +1,121 @@
+<html>
+<head>
+  <title> Goje87 </title>
+  <link type="text/css" href="/G87/jquery-ui-1.7.2/css/custom-theme/jquery-ui-1.7.2.custom.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/G87/goje/basic.css" />  
+  
+  <script language="javascript" src="/G87/goje/basic.js"></script>
+  <script language="javascript" src="/G87/jquery-ui-1.7.2/js/jquery-1.3.2.min.js"></script>
+  <script language="javascript" src="/G87/jquery-ui-1.7.2/js/jquery-ui-1.7.2.custom.min.js"></script>
+  <script language="javascript" src="/AppConfig.js"></script>
+  <!-- Load the Google AJAX API Loader -->
+  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+
+  <!-- Load the Google Friend Connect javascript library. -->
+  <script type="text/javascript">
+  google.load('friendconnect', '0.8');
+  </script>
+
+  <!-- Initialize the Google Friend Connect OpenSocial API. -->
+  <script type="text/javascript">
+  window.isLoggedIn = false;
+  google.friendconnect.container.loadOpenSocialApi({
+    site: GFC_SITEID,
+    onload: function(securityToken) {
+      secTok = securityToken;
+      // Create a request to grab the current viewer.
+      var req = opensocial.newDataRequest();
+      req.add(req.newFetchPersonRequest('VIEWER'), 'viewer');
+      // Sent the request
+      req.send(function(resp)
+      {
+        resp = resp.get('viewer');
+        $('#loading').hide();
+        if(resp.hadError())
+        {
+          $('#userPanel').hide();
+          $('#loginButton').show();
+        }
+        else
+        {          
+          $('#loginButton').hide();
+          $('#userPanel').show();
+          
+          var viewer = resp.getData();
+          $('#userPanel-pic').attr('src',viewer.getField('thumbnailUrl'));
+          $('#userPanel-profileLink').attr('href','http://www.google.com/friendconnect/api/people/@me/@self?'+secTok);
+          $('#userPanel-name').text(viewer.getDisplayName());
+        }
+      });
+    }
+  });
+  </script>
+  <style>
+  body
+  {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+
+  a
+  {
+    text-decoration: none;
+  }
+
+  a:hover
+  {
+    text-decoration: underline;
+  }
+
+  #loginButton, #userPanel
+  {
+    display: none;
+  }
+
+  #loginButton button
+  {
+    color: #333333;
+    font-weight: bold;
+    padding: 3px;
+  }
+
+  #loginButton img
+  {
+    vertical-align: middle;
+    margin-right: 3px;
+  }
+
+  #userPanel
+  {
+    font-size: 9pt;
+  }
+
+  img#userPanel-pic
+  {
+      vertical-align: middle;
+      width: 32px;
+      height: 32px;
+  }
+  </style>
+</head>
+<body>
+  <div id="loginButton">
+    <button onclick="google.friendconnect.requestSignIn();"><img src="http://www.google.com/favicon.ico" /> Sign in</button>
+  </div>
+  <div id="userPanel">
+    <nobr>
+      <a id="userPanel-profileLink" href="http://www.google.com/friendconnect/api/people/@me/@self?">
+        <img id="userPanel-pic" />
+      </a>
+      <strong id="userPanel-name"></strong> |
+      <a href="javascript:;" onclick="google.friendconnect.requestSettings()">Settings</a> |
+      <a href="javascript:;" onclick="google.friendconnect.requestInvite()">Invite</a> |
+      <a href="javascript:;" onclick="google.friendconnect.requestSignOut()">Sign out</a>
+    </nobr>
+  </div>
+  <div id="loading">
+    Loading...<img src="./images/loading_bounce.gif" />
+  </div>
+</body>
+</html>

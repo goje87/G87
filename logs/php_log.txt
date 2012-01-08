@@ -1,0 +1,8 @@
+[02-Jan-2012 18:05:36] PHP Warning:  include(setup/2.step.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in C:\wamp\www\goje87\t\setup.php on line 30
+[02-Jan-2012 18:05:36] PHP Stack trace:
+[02-Jan-2012 18:05:36] PHP   1. {main}() C:\wamp\www\goje87\t\index.php:0
+[02-Jan-2012 18:05:36] PHP   2. include() C:\wamp\www\goje87\t\index.php:9
+[02-Jan-2012 18:05:36] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'setup/2.step.php' for inclusion (include_path='C:/wamp/www/goje87/common/php;C:/wamp/www/goje87/common/php/oauth-php/library;C:/wamp/www/goje87/t;.;C:\php\pear') in C:\wamp\www\goje87\t\setup.php on line 30
+[02-Jan-2012 18:05:36] PHP Stack trace:
+[02-Jan-2012 18:05:36] PHP   1. {main}() C:\wamp\www\goje87\t\index.php:0
+[02-Jan-2012 18:05:36] PHP   2. include() C:\wamp\www\goje87\t\index.php:9

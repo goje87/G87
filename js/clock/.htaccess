@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*)(clock\.js)$ clock.php [NC]

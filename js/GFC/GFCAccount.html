@@ -1,0 +1,63 @@
+<html>
+<head>
+  <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script language="javascript" src="/G87/jquery.template.js"></script>
+  <script language="javascript" src="/AppConfig.js"></script>
+  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  <script language="javascript" src="GFC.js"></script>
+  <script language="javascript">
+  google.load('friendconnect', '0.8');
+  /*$(function()
+  {
+    $('#GFC-loading-wrapper').show();
+    google.friendconnect.container.loadOpenSocialApi({
+      site: GFC_SITEID,
+      onload: function() {
+        // Create a request to grab the current viewer.
+      var req = opensocial.newDataRequest();
+      req.add(req.newFetchPersonRequest('VIEWER'), 'viewer');
+      // Sent the request
+      req.send(function(resp)
+      {
+        resp = resp.get('viewer');
+        $('#GFC-loading-wrapper').hide();
+        if(resp.hadError())
+        {
+          $('#GFC-userPanel-wrapper').hide();
+          $('#GFC-signInButton-wrapper').show();
+        }
+        else
+        {
+          $('#GFC-signInButton-wrapper').hide();
+          $('#GFC-userPanel-wrapper').show();
+          
+          var viewer = resp.getData();
+          var pic = $('#userPanel-pic');
+          var name = $('#userPanel-name');
+          $('#userPanel-pic').attr('src',viewer.getField('thumbnailUrl'));
+          $('#userPanel-profileLink').attr('href','http://www.google.com/friendconnect/api/people/@me/@self?'+secTok);
+          $('#userPanel-name').text(viewer.getDisplayName());
+      }
+    });
+  });*/
+  $(function()
+  {
+    GFC.renderSignInButton('body');
+  });
+  </script>
+</head>
+<body>
+  <!--center>
+    <div id="GFC-loading-wrapper">
+      Loading...
+    </div>
+    <div id="GFC-signInButton-wrapper">
+      Sign In
+    </div>
+    <div id="GFC-userPanel-wrapper">
+      User panel
+    </div>
+  </center-->
+</body>
+</html>
+
