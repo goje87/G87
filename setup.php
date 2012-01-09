@@ -30,7 +30,6 @@ $step2->execute = function() {
 //       generated G87 server variables. As of now these are in siteConfig.json
 
 $steps = InstallationStep::$steps;
-error_log(print_r($steps));
 ?>
 
 
