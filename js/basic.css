@@ -1,12 +1,23 @@
+@import url('http://fonts.googleapis.com/css?family=Wire+One|Six+Caps');
+
 body, td
 {
   font-family: Arial, Sans;
   font-size: 10pt;
 }
 
+.title {
+  font-family: 'Wire One', sans-serif;
+  font-weight: normal;
+}
+
 a img
 {
   border: none;
+}
+
+img {
+  vertical-align: middle;
 }
 
 form
