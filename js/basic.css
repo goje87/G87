@@ -25,16 +25,20 @@ form
   margin: 0px;
 }
 
-input[type="text"], input[type="password"], textarea
+input, textarea
 {
   border: 1px solid #cccccc;
 }
 
 input[type="button"], input[type="submit"], button
 {
-  border: 1px solid #cccccc;
   background-image: url('./images/button-bg.jpeg');
   background-position: center center;
+}
+
+input[type="button"]:focus, input[type="submit"]:focus, button:focus
+{
+  border: 1px solid #000;
 }
 
 .clear
