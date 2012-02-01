@@ -124,7 +124,6 @@ class DB
     {
       if(mysqli_multi_query($link, $query))
       {
-        Logger::debug('here');
       	$result = array();
       	$resultset = mysqli_store_result($link);
       	if($resultset)
