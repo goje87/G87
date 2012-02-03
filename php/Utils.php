@@ -40,6 +40,12 @@ class Utils
         break;
     }
   }
+  
+  public static function inArray($value, $array) {
+    if(array_search($value, $array) === false) return false;
+    
+    return true;
+  }
 }
 
 ?>
