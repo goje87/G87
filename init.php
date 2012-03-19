@@ -1,10 +1,17 @@
 <?php
 
+// set the log_errors flag to true and indicate to the system that it has to print the errors 
+// in the file pointed by variable 'error_log'
 ini_set("log_errors", "1");
 ini_set("error_log" , "{$_SERVER['DOCUMENT_ROOT']}/G87/logs/php_log.txt");
 error_reporting(E_ALL ^ E_NOTICE);
+
+// start the sesstion
 session_start();
-define("DOCUMENT_ROOT", $_SERVER['DOCUMENT_ROOT']);
+
+
+define("DOCUMENT_ROOT", $_SERVER['DOCUMENT_ROOT']); // DEPRICATED LINE
+define("G87_DOCUMENT_ROOT", $_SERVER['DOCUMENT_ROOT']);
 define("SCRIPT_URI", "http://{$_SERVER['SERVER_NAME']}{$_SERVER['REQUEST_URI']}");
 
 $documentRoot = DOCUMENT_ROOT;
@@ -12,7 +19,6 @@ $documentRoot = DOCUMENT_ROOT;
 $includeFolders = array(
   "$documentRoot/G87/php",
   "$documentRoot/G87/php/oauth-php/library",
-  "$documentRoot/t",
   get_include_path());
 set_include_path(implode(PATH_SEPARATOR, $includeFolders));
 
@@ -27,9 +33,13 @@ $app = $matches[0];
 $app = str_replace("/", "", $app);
 
 $appRoot = "$documentRoot/$app";
-define("APP_ROOT", $appRoot);
-parseConfig("$documentRoot/$app/appConfig.json");
-if(file_exists("$appRoot/appInit.php")) include("$appRoot/appInit.php");
+define("APP_ROOT", $appRoot); // DEPRICATED LINE
+define("APP_DOCUMENT_ROOT", $appRoot);
+define("APP_KEY", $app);
+define("APP_SERVER_ROOT", G87_SERVER_ROOT."/".APP_KEY);
+
+parseConfig(APP_DOCUMENT_ROOT."/appConfig.json");
+if(file_exists(APP_DOCUMENT_ROOT."/appInit.php")) include(APP_DOCUMENT_ROOT."/appInit.php");
 
 function __autoload($className)
 {

@@ -4,7 +4,7 @@ require_once("Facebook/facebook.php");
 class FB {
   protected static $config = array(
     "appId" => FB_APP_ID,
-    "secret" => FB_APP_SECRET);
+    "secret" => _FB_APP_SECRET);
     
   protected static $obj = null;
   public static $user = null;
