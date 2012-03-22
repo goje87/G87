@@ -1,5 +1,5 @@
 <?php
-require_once("{$_SERVER['DOCUMENT_ROOT']}/G87/init.php");
+//require_once("{$_SERVER['DOCUMENT_ROOT']}/G87/init.php");
 
 $request = (object) $_REQUEST;
 $file = G87_DOCUMENT_ROOT.$_SERVER['REDIRECT_URL'];
