@@ -1,21 +1,24 @@
 <?php
 class Setup {
-  public $step = 1;
-  public $hideNextButton = false;
+  public static $step = 1;
+  public static $app = "";
+  public static $hideNextButton = false;
+  public static $setupDir = "";
+  protected static $oStep = null;
   
-  public function preInit() {
+  public static function preInit() {
     $request = (object)$_REQUEST;
     
-    $this->step = isset($request->step)?$request->step:1;
-    $this->app = isset($request->app)?$request->app:'G87';
-    $this->defineGlobals();
+    self::$step = isset($request->step)?$request->step:1;
+    self::$app = isset($request->app)?$request->app:'G87';
+    self::defineGlobals();
     
-    $documentRoot = G87_DOCUMENT_ROOT."/$this->app";
-    $this->setupDir = "$documentRoot/setup";
+    $documentRoot = G87_DOCUMENT_ROOT."/".self::$app;
+    self::$setupDir = "$documentRoot/setup";
     G87::parseConfig("$documentRoot/appConfig.json");
   }
   
-  protected function defineGlobals() {
+  protected static function defineGlobals() {
     if(!defined(G87_DOCUMENT_ROOT)) {
       $script_filename = $_SERVER['SCRIPT_FILENAME'];
       $g87_document_root = preg_replace('/\/G87\/setup\.php/', '', $script_filename);
@@ -25,30 +28,30 @@ class Setup {
     if(!defined(SCRIPT_URI)) define("SCRIPT_URI", "http://{$_SERVER['SERVER_NAME']}{$_SERVER['REQUEST_URI']}");
   }
   
-  public function init() {
+  public static function init() {
     $request = (object) $_REQUEST;
     
     if(!$request->submit) return;
     
-    $this->step = new Step($this);
-    $this->step->execute();
+    self::$oStep = new Step();
+    self::$oStep->execute();
   }
   
-  public function nextStep() {
-    $this->goToStep($this->step + 1);
+  public static function nextStep() {
+    self::goToStep(self::$step + 1);
   }
   
-  public function finish() {
-    $this->goToStep("finish");
+  public static function finish() {
+    self::goToStep("finish");
   }
   
-  public function goToStep($step) {    
-    $redirectUrl = $this->getRedirectUrl(SCRIPT_URI, array("step" => $step, "app" => $this->app));
+  public static function goToStep($step) {    
+    $redirectUrl = self::getRedirectUrl(SCRIPT_URI, array("step" => $step, "app" => self::$app));
     
     echo "Please Wait...<script language=\"javascript\">window.location = '$redirectUrl';</script>";
   }
   
-  protected function getRedirectUrl($url, $params) {
+  protected static function getRedirectUrl($url, $params) {
     // $pairs = array();
     // foreach($params as $key => $value) {
       // $pairs[] = "$key=".urlencode($value);
@@ -62,8 +65,8 @@ class Setup {
     return $redirectUrl;
   }
   
-  public function hideNextButton() {
-    $this->hideNextButton = true;
+  public static function hideNextButton() {
+    self::$hideNextButton = true;
   }
 }
 ?>

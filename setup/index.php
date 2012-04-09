@@ -1,23 +1,22 @@
 <?php
 include_once("../init.php");
-$setup = new Setup();
-$setup->preInit();
-$stepScript = "$setup->setupDir/$setup->step.step.php";
+Setup::preInit();
+$stepScript = Setup::$setupDir."/".Setup::$step.".step.php";
 if(file_exists($stepScript)) include($stepScript);
-$setup->init();
+Setup::init();
 ?>
 
 <html>
   <head>
-    <title><?= $setup->app ?> Setup</title>
+    <title><?= Setup::$app ?> Setup</title>
     <link rel="stylesheet" href="/G87/js/basic.css" />
   </head>
   <body>
     <form method="post">
       <div>
-        <? include("$setup->setupDir/$setup->step.step.tpl"); ?>
+        <? include(Setup::$setupDir."/".Setup::$step.".step.tpl"); ?>
       </div>
-      <? if(!$setup->hideNextButton && $setup->step != "finish") : ?>
+      <? if(!Setup::$hideNextButton && Setup::$step != "finish") : ?>
         <input type="submit" name="submit" value="Next &raquo;" />
       <? endif; ?>
     </form>
