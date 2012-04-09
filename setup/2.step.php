@@ -6,7 +6,7 @@ class Step extends SetupStep {
     $file = fopen(G87_DOCUMENT_ROOT."/.htaccess", "w");
     fwrite($file, $contents); 
     fclose($file);
-    $this->setup->finish();
+    Setup::finish();
   }
 }
 ?>

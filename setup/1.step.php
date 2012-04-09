@@ -6,7 +6,7 @@ class Step extends SetupStep {
     $file = fopen(G87_DOCUMENT_ROOT."/.user.ini", "w");
     fwrite($file, $contents); 
     fclose($file);
-    $this->setup->nextStep();
+    Setup::nextStep();
   }
 }
 ?>
