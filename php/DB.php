@@ -31,7 +31,7 @@ class DB
     $config = new stdClass();
     $config->host = DB_HOST;
     $config->username = DB_USERNAME;
-    $comfig->password = DB_PASSWORD;
+    $config->password = DB_PASSWORD;
     $config->database = DB_DATABASE;
     self::setServer($config);
   }
