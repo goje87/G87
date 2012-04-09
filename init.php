@@ -27,7 +27,7 @@ set_include_path(implode(PATH_SEPARATOR, $includeFolders));
 
 
 // Parse the siteConfig.json
-G87::parseConfig(G87_DOCUMENT_ROOT."/G87/config/siteConfig.json");
+G87::parseConfig(G87_DOCUMENT_ROOT."/G87/config/siteConfig.json"); 
 
 
 // Declaring global variables related to the app being accessed currently
