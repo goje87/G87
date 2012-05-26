@@ -22,6 +22,7 @@ $documentRoot = G87_DOCUMENT_ROOT;
 $includeFolders = array(
   "$documentRoot/G87/php",
   "$documentRoot/G87/php/oauth-php/library",
+  "$documentRoot/G87/php/Facebook",
   get_include_path());
 set_include_path(implode(PATH_SEPARATOR, $includeFolders));
 

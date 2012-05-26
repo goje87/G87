@@ -16,5 +16,24 @@ class G87 {
       define($key, $value);
     }
   }
+  
+  public static function makeRequest($url, $config = null) {
+    if(!$config) {
+      $config = new stdClass();
+    }
+    
+    $c = curl_init($url);
+    
+    if($config->type == "POST") {
+      curl_setopt($c, CURLOPT_POST, true);
+      curl_setopt($c, CURLOPT_POSTFIELDS, $config->params);
+    }
+    
+    curl_setopt ($c, CURLOPT_RETURNTRANSFER, true);
+    $response = curl_exec($c);
+    curl_close($c);
+    
+    return $response;
+  }
 }
 ?>

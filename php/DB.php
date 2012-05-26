@@ -163,6 +163,19 @@ class DB
     $replace=array("\\\\","\\0","\\r\\n","\\n","\\r","\Z","\'",'\"');
     return str_replace($search,$replace,$string);
   }
+  
+  public static function insertInto($table, $data) {
+    $cols = array_keys($data);
+    $values = array();
+    foreach($data as $value) {
+      $values[] = self::escapeString($value);
+    }
+    
+    $query = "INSERT INTO `$table` 
+              (`".implode("`, `", $cols)."`) VALUES ('".implode("', '", $values)."')";
+              
+    return self::execQuery($query);
+  }
 }
 
 DB::init();
