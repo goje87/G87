@@ -1,4 +1,5 @@
 <?php
+require_once("../init.php");
 $setup = new Setup();
 $setup->preInit();
 $stepScript = "$setup->setupDir/$setup->step.step.php";

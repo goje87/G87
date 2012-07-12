@@ -1,8 +1,1812 @@
-[02-Jan-2012 18:05:36] PHP Warning:  include(setup/2.step.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in C:\wamp\www\goje87\t\setup.php on line 30
-[02-Jan-2012 18:05:36] PHP Stack trace:
-[02-Jan-2012 18:05:36] PHP   1. {main}() C:\wamp\www\goje87\t\index.php:0
-[02-Jan-2012 18:05:36] PHP   2. include() C:\wamp\www\goje87\t\index.php:9
-[02-Jan-2012 18:05:36] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'setup/2.step.php' for inclusion (include_path='C:/wamp/www/goje87/common/php;C:/wamp/www/goje87/common/php/oauth-php/library;C:/wamp/www/goje87/t;.;C:\php\pear') in C:\wamp\www\goje87\t\setup.php on line 30
-[02-Jan-2012 18:05:36] PHP Stack trace:
-[02-Jan-2012 18:05:36] PHP   1. {main}() C:\wamp\www\goje87\t\index.php:0
-[02-Jan-2012 18:05:36] PHP   2. include() C:\wamp\www\goje87\t\index.php:9
+[08-Jul-2012 19:41:15 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/
+[08-Jul-2012 19:41:15 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[08-Jul-2012 19:41:15 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[08-Jul-2012 19:41:15 UTC] APP_ROUTE: /setup
+[08-Jul-2012 19:41:15 UTC] G87_REQUEST_ROOT: http://goje87.local
+[08-Jul-2012 19:41:15 UTC] APP_KEY: G87
+[08-Jul-2012 19:41:15 UTC] G87_REQUEST_QUERY: 
+[08-Jul-2012 19:41:23 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/
+[08-Jul-2012 19:41:23 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[08-Jul-2012 19:41:23 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[08-Jul-2012 19:41:23 UTC] APP_ROUTE: /setup
+[08-Jul-2012 19:41:23 UTC] G87_REQUEST_ROOT: http://goje87.local
+[08-Jul-2012 19:41:23 UTC] APP_KEY: G87
+[08-Jul-2012 19:41:23 UTC] G87_REQUEST_QUERY: 
+[08-Jul-2012 19:41:23 UTC] PHP Catchable fatal error:  Object of class Step could not be converted to string in /private/var/www/goje87/G87/setup/index.php on line 18
+[08-Jul-2012 19:41:23 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/?step=2&app=G87
+[08-Jul-2012 19:41:23 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[08-Jul-2012 19:41:23 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[08-Jul-2012 19:41:23 UTC] APP_ROUTE: /setup
+[08-Jul-2012 19:41:23 UTC] G87_REQUEST_ROOT: http://goje87.local
+[08-Jul-2012 19:41:23 UTC] APP_KEY: G87
+[08-Jul-2012 19:41:23 UTC] G87_REQUEST_QUERY: step=2&app=G87
+[08-Jul-2012 20:13:39 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/
+[08-Jul-2012 20:13:39 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[08-Jul-2012 20:13:39 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[08-Jul-2012 20:13:39 UTC] APP_ROUTE: /setup
+[08-Jul-2012 20:13:39 UTC] G87_REQUEST_ROOT: http://goje87.local
+[08-Jul-2012 20:13:39 UTC] APP_KEY: G87
+[08-Jul-2012 20:13:39 UTC] G87_REQUEST_QUERY: 
+[08-Jul-2012 20:13:44 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/
+[08-Jul-2012 20:13:44 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[08-Jul-2012 20:13:44 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[08-Jul-2012 20:13:44 UTC] APP_ROUTE: /setup
+[08-Jul-2012 20:13:44 UTC] G87_REQUEST_ROOT: http://goje87.local
+[08-Jul-2012 20:13:44 UTC] APP_KEY: G87
+[08-Jul-2012 20:13:44 UTC] G87_REQUEST_QUERY: 
+[08-Jul-2012 20:13:44 UTC] PHP Catchable fatal error:  Object of class Step could not be converted to string in /private/var/www/goje87/G87/setup/index.php on line 18
+[08-Jul-2012 20:13:44 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/?step=2&app=G87
+[08-Jul-2012 20:13:44 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[08-Jul-2012 20:13:44 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[08-Jul-2012 20:13:44 UTC] APP_ROUTE: /setup
+[08-Jul-2012 20:13:44 UTC] G87_REQUEST_ROOT: http://goje87.local
+[08-Jul-2012 20:13:44 UTC] APP_KEY: G87
+[08-Jul-2012 20:13:44 UTC] G87_REQUEST_QUERY: step=2&app=G87
+[08-Jul-2012 20:13:48 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/?step=2&app=G87
+[08-Jul-2012 20:13:48 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[08-Jul-2012 20:13:48 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[08-Jul-2012 20:13:48 UTC] APP_ROUTE: /setup
+[08-Jul-2012 20:13:48 UTC] G87_REQUEST_ROOT: http://goje87.local
+[08-Jul-2012 20:13:48 UTC] APP_KEY: G87
+[08-Jul-2012 20:13:48 UTC] G87_REQUEST_QUERY: step=2&app=G87
+[08-Jul-2012 20:13:48 UTC] PHP Catchable fatal error:  Object of class Step could not be converted to string in /private/var/www/goje87/G87/setup/index.php on line 18
+[08-Jul-2012 20:13:48 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/?step=finish&app=G87
+[08-Jul-2012 20:13:48 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[08-Jul-2012 20:13:48 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[08-Jul-2012 20:13:48 UTC] APP_ROUTE: /setup
+[08-Jul-2012 20:13:48 UTC] G87_REQUEST_ROOT: http://goje87.local
+[08-Jul-2012 20:13:48 UTC] APP_KEY: G87
+[08-Jul-2012 20:13:48 UTC] G87_REQUEST_QUERY: step=finish&app=G87
+[08-Jul-2012 20:14:06 UTC] G87_REQUEST_URL: http://goje87.local/Test/module/
+[08-Jul-2012 20:14:06 UTC] G87_REQUEST_PATH: http://goje87.local/Test/module
+[08-Jul-2012 20:14:06 UTC] APP_REQUEST_ROOT: http://goje87.local/Test
+[08-Jul-2012 20:14:06 UTC] APP_ROUTE: /module
+[08-Jul-2012 20:14:06 UTC] G87_REQUEST_ROOT: http://goje87.local
+[08-Jul-2012 20:14:06 UTC] APP_KEY: Test
+[08-Jul-2012 20:14:06 UTC] G87_REQUEST_QUERY: 
+[08-Jul-2012 20:14:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[08-Jul-2012 20:14:06 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/Test/module/index.php on line 2
+[08-Jul-2012 20:15:09 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/?step=finish&app=G87
+[08-Jul-2012 20:15:09 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[08-Jul-2012 20:15:09 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[08-Jul-2012 20:15:09 UTC] APP_ROUTE: /setup
+[08-Jul-2012 20:15:09 UTC] G87_REQUEST_ROOT: http://goje87.local
+[08-Jul-2012 20:15:09 UTC] APP_KEY: G87
+[08-Jul-2012 20:15:09 UTC] G87_REQUEST_QUERY: step=finish&app=G87
+[08-Jul-2012 20:21:36 UTC] G87_REQUEST_URL: http://goje87.local/Test/module/
+[08-Jul-2012 20:21:36 UTC] G87_REQUEST_PATH: http://goje87.local/Test/module
+[08-Jul-2012 20:21:36 UTC] APP_REQUEST_ROOT: http://goje87.local/Test
+[08-Jul-2012 20:21:36 UTC] APP_ROUTE: /module
+[08-Jul-2012 20:21:36 UTC] G87_REQUEST_ROOT: http://goje87.local
+[08-Jul-2012 20:21:36 UTC] APP_KEY: Test
+[08-Jul-2012 20:21:36 UTC] G87_REQUEST_QUERY: 
+[08-Jul-2012 20:21:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[08-Jul-2012 20:21:36 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/Test/module/index.php on line 2
+[09-Jul-2012 16:35:01 UTC] G87_REQUEST_URL: http://goje87.local/Test/module/
+[09-Jul-2012 16:35:01 UTC] G87_REQUEST_PATH: http://goje87.local/Test/module
+[09-Jul-2012 16:35:01 UTC] APP_REQUEST_ROOT: http://goje87.local/Test
+[09-Jul-2012 16:35:01 UTC] APP_ROUTE: /module
+[09-Jul-2012 16:35:01 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 16:35:01 UTC] APP_KEY: Test
+[09-Jul-2012 16:35:01 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 16:35:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 16:35:01 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/Test/module/index.php on line 2
+[09-Jul-2012 16:35:38 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/
+[09-Jul-2012 16:35:38 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[09-Jul-2012 16:35:38 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[09-Jul-2012 16:35:38 UTC] APP_ROUTE: /setup
+[09-Jul-2012 16:35:38 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 16:35:38 UTC] APP_KEY: G87
+[09-Jul-2012 16:35:38 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 16:35:48 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/
+[09-Jul-2012 16:35:48 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[09-Jul-2012 16:35:48 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[09-Jul-2012 16:35:48 UTC] APP_ROUTE: /setup
+[09-Jul-2012 16:35:48 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 16:35:48 UTC] APP_KEY: G87
+[09-Jul-2012 16:35:48 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 16:35:48 UTC] PHP Catchable fatal error:  Object of class Step could not be converted to string in /private/var/www/goje87/G87/setup/index.php on line 18
+[09-Jul-2012 16:35:48 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/?step=2&app=G87
+[09-Jul-2012 16:35:48 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[09-Jul-2012 16:35:48 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[09-Jul-2012 16:35:48 UTC] APP_ROUTE: /setup
+[09-Jul-2012 16:35:48 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 16:35:48 UTC] APP_KEY: G87
+[09-Jul-2012 16:35:48 UTC] G87_REQUEST_QUERY: step=2&app=G87
+[09-Jul-2012 16:35:50 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/?step=2&app=G87
+[09-Jul-2012 16:35:50 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[09-Jul-2012 16:35:50 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[09-Jul-2012 16:35:50 UTC] APP_ROUTE: /setup
+[09-Jul-2012 16:35:50 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 16:35:50 UTC] APP_KEY: G87
+[09-Jul-2012 16:35:50 UTC] G87_REQUEST_QUERY: step=2&app=G87
+[09-Jul-2012 16:35:50 UTC] PHP Catchable fatal error:  Object of class Step could not be converted to string in /private/var/www/goje87/G87/setup/index.php on line 18
+[09-Jul-2012 16:35:50 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/?step=finish&app=G87
+[09-Jul-2012 16:35:50 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[09-Jul-2012 16:35:50 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[09-Jul-2012 16:35:50 UTC] APP_ROUTE: /setup
+[09-Jul-2012 16:35:50 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 16:35:50 UTC] APP_KEY: G87
+[09-Jul-2012 16:35:50 UTC] G87_REQUEST_QUERY: step=finish&app=G87
+[09-Jul-2012 16:42:53 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/
+[09-Jul-2012 16:42:53 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[09-Jul-2012 16:42:53 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[09-Jul-2012 16:42:53 UTC] APP_ROUTE: /setup
+[09-Jul-2012 16:42:53 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 16:42:53 UTC] APP_KEY: G87
+[09-Jul-2012 16:42:53 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 16:47:48 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/
+[09-Jul-2012 16:47:48 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[09-Jul-2012 16:47:48 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[09-Jul-2012 16:47:48 UTC] APP_ROUTE: /setup
+[09-Jul-2012 16:47:48 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 16:47:48 UTC] APP_KEY: G87
+[09-Jul-2012 16:47:48 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 16:49:11 UTC] G87_REQUEST_URL: http://goje87.local/G87/setup/
+[09-Jul-2012 16:49:11 UTC] G87_REQUEST_PATH: http://goje87.local/G87/setup
+[09-Jul-2012 16:49:11 UTC] APP_REQUEST_ROOT: http://goje87.local/G87
+[09-Jul-2012 16:49:11 UTC] APP_ROUTE: /setup
+[09-Jul-2012 16:49:11 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 16:49:11 UTC] APP_KEY: G87
+[09-Jul-2012 16:49:11 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 16:49:34 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[09-Jul-2012 16:49:34 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[09-Jul-2012 16:49:34 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[09-Jul-2012 16:49:34 UTC] APP_ROUTE: /module
+[09-Jul-2012 16:49:34 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 16:49:34 UTC] APP_KEY: test
+[09-Jul-2012 16:49:34 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 16:49:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 16:49:34 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/test/module/index.php on line 2
+[09-Jul-2012 17:08:47 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[09-Jul-2012 17:08:47 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[09-Jul-2012 17:08:47 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[09-Jul-2012 17:08:47 UTC] APP_ROUTE: /module
+[09-Jul-2012 17:08:47 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 17:08:47 UTC] APP_KEY: test
+[09-Jul-2012 17:08:47 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 17:08:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 17:08:47 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:08:47 UTC] [Router->route()](line: 8) DEBUG: Will process /var/www/goje87/test/module
+[09-Jul-2012 17:14:39 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[09-Jul-2012 17:14:39 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[09-Jul-2012 17:14:39 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[09-Jul-2012 17:14:39 UTC] APP_ROUTE: /module
+[09-Jul-2012 17:14:39 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 17:14:39 UTC] APP_KEY: test
+[09-Jul-2012 17:14:39 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 17:14:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 17:14:39 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:14:39 UTC] [Router->route()](line: 7) DEBUG: Will process /var/www/goje87/test/module
+[09-Jul-2012 17:14:39 UTC] PHP Fatal error:  Call to undefined function if_dir() in /private/var/www/goje87/G87/php/Router.php on line 9
+[09-Jul-2012 17:15:13 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[09-Jul-2012 17:15:13 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[09-Jul-2012 17:15:13 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[09-Jul-2012 17:15:13 UTC] APP_ROUTE: /module
+[09-Jul-2012 17:15:13 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 17:15:13 UTC] APP_KEY: test
+[09-Jul-2012 17:15:13 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 17:15:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 17:15:13 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:15:13 UTC] [Router->route()](line: 7) DEBUG: Will process /var/www/goje87/test/module
+[09-Jul-2012 17:15:13 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:15:13 UTC] [Router->route()](line: 10) DEBUG: /var/www/goje87/test/module is directory
+[09-Jul-2012 17:18:36 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[09-Jul-2012 17:18:36 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[09-Jul-2012 17:18:36 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[09-Jul-2012 17:18:36 UTC] APP_ROUTE: /module
+[09-Jul-2012 17:18:36 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 17:18:36 UTC] APP_KEY: test
+[09-Jul-2012 17:18:36 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 17:18:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 17:18:36 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:18:36 UTC] [Router->route()](line: 7) DEBUG: Will process /var/www/goje87/test/module
+[09-Jul-2012 17:18:36 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:18:36 UTC] [Router->route()](line: 10) DEBUG: /var/www/goje87/test/module is directory
+[09-Jul-2012 17:18:36 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:18:36 UTC] [Router->route()](line: 14) DEBUG: /var/www/goje87/test/module/index.view is file
+[09-Jul-2012 17:26:15 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[09-Jul-2012 17:26:15 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[09-Jul-2012 17:26:15 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[09-Jul-2012 17:26:15 UTC] APP_ROUTE: .ico
+[09-Jul-2012 17:26:15 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 17:26:15 UTC] APP_KEY: favicon
+[09-Jul-2012 17:26:15 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 17:31:49 UTC] G87_REQUEST_URL: http://goje87.local/test/module/subMod
+[09-Jul-2012 17:31:49 UTC] G87_REQUEST_PATH: http://goje87.local/test/module/subMod
+[09-Jul-2012 17:31:49 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[09-Jul-2012 17:31:49 UTC] APP_ROUTE: /module/subMod
+[09-Jul-2012 17:31:49 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 17:31:49 UTC] APP_KEY: test
+[09-Jul-2012 17:31:49 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 17:31:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 17:31:49 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[09-Jul-2012 17:31:49 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[09-Jul-2012 17:31:49 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[09-Jul-2012 17:31:49 UTC] APP_ROUTE: .ico
+[09-Jul-2012 17:31:49 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 17:31:49 UTC] APP_KEY: favicon
+[09-Jul-2012 17:31:49 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 17:32:59 UTC] G87_REQUEST_URL: http://goje87.local/test/module/subMod
+[09-Jul-2012 17:32:59 UTC] G87_REQUEST_PATH: http://goje87.local/test/module/subMod
+[09-Jul-2012 17:32:59 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[09-Jul-2012 17:32:59 UTC] APP_ROUTE: /module/subMod
+[09-Jul-2012 17:32:59 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 17:32:59 UTC] APP_KEY: test
+[09-Jul-2012 17:32:59 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 17:32:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 17:32:59 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[09-Jul-2012 17:32:59 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[09-Jul-2012 17:32:59 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[09-Jul-2012 17:32:59 UTC] APP_ROUTE: .ico
+[09-Jul-2012 17:32:59 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 17:32:59 UTC] APP_KEY: favicon
+[09-Jul-2012 17:32:59 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 17:35:00 UTC] G87_REQUEST_URL: http://goje87.local/test/module/subMod
+[09-Jul-2012 17:35:00 UTC] G87_REQUEST_PATH: http://goje87.local/test/module/subMod
+[09-Jul-2012 17:35:00 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[09-Jul-2012 17:35:00 UTC] APP_ROUTE: /module/subMod
+[09-Jul-2012 17:35:00 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 17:35:00 UTC] APP_KEY: test
+[09-Jul-2012 17:35:00 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 17:35:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 17:35:00 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:35:00 UTC] [Router->route()](line: 7) DEBUG: Will process /var/www/goje87/test/module/subMod
+[09-Jul-2012 17:35:00 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:35:00 UTC] [Router->route()](line: 19) DEBUG: Array
+(
+    [0] => /subMod
+    [1] => subMod
+    [2] => d
+)
+
+[09-Jul-2012 17:35:01 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[09-Jul-2012 17:35:01 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[09-Jul-2012 17:35:01 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[09-Jul-2012 17:35:01 UTC] APP_ROUTE: .ico
+[09-Jul-2012 17:35:01 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 17:35:01 UTC] APP_KEY: favicon
+[09-Jul-2012 17:35:01 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 17:35:01 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:35:01 UTC] [Router->route()](line: 7) DEBUG: Will process /var/www/goje87/favicon.ico
+[09-Jul-2012 17:35:01 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:35:01 UTC] [Router->route()](line: 19) DEBUG: Array
+(
+    [0] => /favicon.ico
+    [1] => favicon.ico
+    [2] => o
+)
+
+[09-Jul-2012 17:39:44 UTC] G87_REQUEST_URL: http://goje87.local/test/module/subMod
+[09-Jul-2012 17:39:44 UTC] G87_REQUEST_PATH: http://goje87.local/test/module/subMod
+[09-Jul-2012 17:39:44 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[09-Jul-2012 17:39:44 UTC] APP_ROUTE: /module/subMod
+[09-Jul-2012 17:39:44 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 17:39:44 UTC] APP_KEY: test
+[09-Jul-2012 17:39:44 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 17:39:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 17:39:44 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:39:44 UTC] [Router->route()](line: 7) DEBUG: Will process /var/www/goje87/test/module/subMod
+[09-Jul-2012 17:39:44 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:39:44 UTC] [Router->route()](line: 22) DEBUG: will search for subMod in /var/www/goje87/test/module
+[09-Jul-2012 17:39:44 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[09-Jul-2012 17:39:44 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[09-Jul-2012 17:39:44 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[09-Jul-2012 17:39:44 UTC] APP_ROUTE: .ico
+[09-Jul-2012 17:39:44 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 17:39:44 UTC] APP_KEY: favicon
+[09-Jul-2012 17:39:44 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 17:39:44 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:39:44 UTC] [Router->route()](line: 7) DEBUG: Will process /var/www/goje87/favicon.ico
+[09-Jul-2012 17:39:44 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:39:44 UTC] [Router->route()](line: 22) DEBUG: will search for favicon.ico in /var/www/goje87
+[09-Jul-2012 17:54:05 UTC] G87_REQUEST_URL: http://goje87.local/test/module/subMod
+[09-Jul-2012 17:54:05 UTC] G87_REQUEST_PATH: http://goje87.local/test/module/subMod
+[09-Jul-2012 17:54:05 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[09-Jul-2012 17:54:05 UTC] APP_ROUTE: /module/subMod
+[09-Jul-2012 17:54:05 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 17:54:05 UTC] APP_KEY: test
+[09-Jul-2012 17:54:05 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 17:54:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 17:54:05 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:54:05 UTC] [Router->getPath()](line: 19) DEBUG: will search for subMod in /var/www/goje87/test/module
+[09-Jul-2012 17:54:05 UTC] Gotta process /var/www/goje87/test/module/subMod.view
+[09-Jul-2012 17:54:05 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[09-Jul-2012 17:54:05 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[09-Jul-2012 17:54:05 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[09-Jul-2012 17:54:05 UTC] APP_ROUTE: .ico
+[09-Jul-2012 17:54:05 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 17:54:05 UTC] APP_KEY: favicon
+[09-Jul-2012 17:54:05 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 17:54:05 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 17:54:05 UTC] [Router->getPath()](line: 19) DEBUG: will search for favicon.ico in /var/www/goje87
+[09-Jul-2012 17:54:05 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[09-Jul-2012 18:01:12 UTC] G87_REQUEST_URL: http://goje87.local/test/module/subMod
+[09-Jul-2012 18:01:12 UTC] G87_REQUEST_PATH: http://goje87.local/test/module/subMod
+[09-Jul-2012 18:01:12 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[09-Jul-2012 18:01:12 UTC] APP_ROUTE: /module/subMod
+[09-Jul-2012 18:01:12 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 18:01:12 UTC] APP_KEY: test
+[09-Jul-2012 18:01:12 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 18:01:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 18:01:12 UTC] Gotta process /var/www/goje87/test/module/subMod.view
+[09-Jul-2012 18:01:13 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[09-Jul-2012 18:01:13 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[09-Jul-2012 18:01:13 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[09-Jul-2012 18:01:13 UTC] APP_ROUTE: .ico
+[09-Jul-2012 18:01:13 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 18:01:13 UTC] APP_KEY: favicon
+[09-Jul-2012 18:01:13 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 18:01:13 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[09-Jul-2012 18:01:31 UTC] G87_REQUEST_URL: http://goje87.local/test/module/subMod1
+[09-Jul-2012 18:01:31 UTC] G87_REQUEST_PATH: http://goje87.local/test/module/subMod1
+[09-Jul-2012 18:01:31 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[09-Jul-2012 18:01:31 UTC] APP_ROUTE: /module/subMod1
+[09-Jul-2012 18:01:31 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 18:01:31 UTC] APP_KEY: test
+[09-Jul-2012 18:01:31 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 18:01:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 18:01:31 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[09-Jul-2012 18:01:32 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[09-Jul-2012 18:01:32 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[09-Jul-2012 18:01:32 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[09-Jul-2012 18:01:32 UTC] APP_ROUTE: .ico
+[09-Jul-2012 18:01:32 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 18:01:32 UTC] APP_KEY: favicon
+[09-Jul-2012 18:01:32 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 18:01:32 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[09-Jul-2012 18:10:28 UTC] G87_REQUEST_URL: http://goje87.local/test/module/subMod
+[09-Jul-2012 18:10:28 UTC] G87_REQUEST_PATH: http://goje87.local/test/module/subMod
+[09-Jul-2012 18:10:28 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[09-Jul-2012 18:10:28 UTC] APP_ROUTE: /module/subMod
+[09-Jul-2012 18:10:28 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 18:10:28 UTC] APP_KEY: test
+[09-Jul-2012 18:10:28 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 18:10:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 18:10:28 UTC] Gotta process /var/www/goje87/test/module/subMod.view
+[09-Jul-2012 18:10:28 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[09-Jul-2012 18:10:28 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[09-Jul-2012 18:10:28 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[09-Jul-2012 18:10:28 UTC] APP_ROUTE: .ico
+[09-Jul-2012 18:10:28 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 18:10:28 UTC] APP_KEY: favicon
+[09-Jul-2012 18:10:28 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 18:10:28 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[09-Jul-2012 18:15:46 UTC] G87_REQUEST_URL: http://goje87.local/test/module/subMod
+[09-Jul-2012 18:15:46 UTC] G87_REQUEST_PATH: http://goje87.local/test/module/subMod
+[09-Jul-2012 18:15:46 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[09-Jul-2012 18:15:46 UTC] APP_ROUTE: /module/subMod
+[09-Jul-2012 18:15:46 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 18:15:46 UTC] APP_KEY: test
+[09-Jul-2012 18:15:46 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 18:15:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 18:15:46 UTC] Gotta process /var/www/goje87/test/module/subMod.view
+[09-Jul-2012 18:15:46 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[09-Jul-2012 18:15:46 UTC] [G87->render()](line: 22) DEBUG: Array
+(
+    [0] => .view
+    [1] => view
+)
+
+[09-Jul-2012 18:15:47 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[09-Jul-2012 18:15:47 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[09-Jul-2012 18:15:47 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[09-Jul-2012 18:15:47 UTC] APP_ROUTE: .ico
+[09-Jul-2012 18:15:47 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 18:15:47 UTC] APP_KEY: favicon
+[09-Jul-2012 18:15:47 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 18:15:47 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[09-Jul-2012 18:23:20 UTC] G87_REQUEST_URL: http://goje87.local/test/module/subMod
+[09-Jul-2012 18:23:20 UTC] G87_REQUEST_PATH: http://goje87.local/test/module/subMod
+[09-Jul-2012 18:23:20 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[09-Jul-2012 18:23:20 UTC] APP_ROUTE: /module/subMod
+[09-Jul-2012 18:23:20 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 18:23:20 UTC] APP_KEY: test
+[09-Jul-2012 18:23:20 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 18:23:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 18:23:20 UTC] Gotta process /var/www/goje87/test/module/subMod.view
+[09-Jul-2012 18:23:21 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[09-Jul-2012 18:23:21 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[09-Jul-2012 18:23:21 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[09-Jul-2012 18:23:21 UTC] APP_ROUTE: .ico
+[09-Jul-2012 18:23:21 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 18:23:21 UTC] APP_KEY: favicon
+[09-Jul-2012 18:23:21 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 18:23:21 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[09-Jul-2012 18:23:34 UTC] G87_REQUEST_URL: http://goje87.local/test/module/subMod
+[09-Jul-2012 18:23:34 UTC] G87_REQUEST_PATH: http://goje87.local/test/module/subMod
+[09-Jul-2012 18:23:34 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[09-Jul-2012 18:23:34 UTC] APP_ROUTE: /module/subMod
+[09-Jul-2012 18:23:34 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 18:23:34 UTC] APP_KEY: test
+[09-Jul-2012 18:23:34 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 18:23:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[09-Jul-2012 18:23:34 UTC] Gotta process /var/www/goje87/test/module/subMod.view
+[09-Jul-2012 18:23:34 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[09-Jul-2012 18:23:34 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[09-Jul-2012 18:23:34 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[09-Jul-2012 18:23:34 UTC] APP_ROUTE: .ico
+[09-Jul-2012 18:23:34 UTC] G87_REQUEST_ROOT: http://goje87.local
+[09-Jul-2012 18:23:34 UTC] APP_KEY: favicon
+[09-Jul-2012 18:23:34 UTC] G87_REQUEST_QUERY: 
+[09-Jul-2012 18:23:34 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 14:02:34 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 14:02:34 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 14:02:34 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 14:02:34 UTC] APP_ROUTE: /module
+[10-Jul-2012 14:02:34 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:02:34 UTC] APP_KEY: test
+[10-Jul-2012 14:02:34 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:02:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 14:02:34 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 14:02:35 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 14:02:35 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 14:02:35 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 14:02:35 UTC] APP_ROUTE: .ico
+[10-Jul-2012 14:02:35 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:02:35 UTC] APP_KEY: favicon
+[10-Jul-2012 14:02:35 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:02:35 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 14:02:56 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 14:02:56 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 14:02:56 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 14:02:56 UTC] APP_ROUTE: /module
+[10-Jul-2012 14:02:56 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:02:56 UTC] APP_KEY: test
+[10-Jul-2012 14:02:56 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:02:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 14:02:56 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 14:02:56 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 14:02:56 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 14:02:56 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 14:02:56 UTC] APP_ROUTE: .ico
+[10-Jul-2012 14:02:56 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:02:56 UTC] APP_KEY: favicon
+[10-Jul-2012 14:02:56 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:02:56 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 14:03:10 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 14:03:10 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 14:03:10 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 14:03:10 UTC] APP_ROUTE: /module
+[10-Jul-2012 14:03:10 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:03:10 UTC] APP_KEY: test
+[10-Jul-2012 14:03:10 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:03:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 14:03:10 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 14:03:10 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 14:03:10 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 14:03:10 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 14:03:10 UTC] APP_ROUTE: .ico
+[10-Jul-2012 14:03:10 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:03:10 UTC] APP_KEY: favicon
+[10-Jul-2012 14:03:10 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:03:10 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 14:03:51 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 14:03:51 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 14:03:51 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 14:03:51 UTC] APP_ROUTE: /module
+[10-Jul-2012 14:03:51 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:03:51 UTC] APP_KEY: test
+[10-Jul-2012 14:03:51 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:03:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 14:03:51 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 14:03:51 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 14:03:51 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 14:03:51 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 14:03:51 UTC] APP_ROUTE: .ico
+[10-Jul-2012 14:03:51 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:03:51 UTC] APP_KEY: favicon
+[10-Jul-2012 14:03:51 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:03:51 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 14:09:50 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 14:09:50 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 14:09:50 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 14:09:50 UTC] APP_ROUTE: /module
+[10-Jul-2012 14:09:50 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:09:50 UTC] APP_KEY: test
+[10-Jul-2012 14:09:50 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:09:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 14:09:50 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 14:09:50 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 14:09:50 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 14:09:50 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 14:09:50 UTC] APP_ROUTE: .ico
+[10-Jul-2012 14:09:50 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:09:50 UTC] APP_KEY: favicon
+[10-Jul-2012 14:09:50 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:09:50 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 14:10:11 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 14:10:11 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 14:10:11 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 14:10:11 UTC] APP_ROUTE: /module
+[10-Jul-2012 14:10:11 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:10:11 UTC] APP_KEY: test
+[10-Jul-2012 14:10:11 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:10:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 14:10:11 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 14:10:11 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 14:10:11 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 14:10:11 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 14:10:11 UTC] APP_ROUTE: .ico
+[10-Jul-2012 14:10:11 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:10:11 UTC] APP_KEY: favicon
+[10-Jul-2012 14:10:11 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:10:11 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 14:11:02 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 14:11:02 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 14:11:02 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 14:11:02 UTC] APP_ROUTE: /module
+[10-Jul-2012 14:11:02 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:11:02 UTC] APP_KEY: test
+[10-Jul-2012 14:11:02 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:11:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 14:11:02 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 14:11:02 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 14:11:02 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 14:11:02 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 14:11:02 UTC] APP_ROUTE: .ico
+[10-Jul-2012 14:11:02 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:11:02 UTC] APP_KEY: favicon
+[10-Jul-2012 14:11:02 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:11:02 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 14:14:21 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 14:14:21 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 14:14:21 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 14:14:21 UTC] APP_ROUTE: /module
+[10-Jul-2012 14:14:21 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:14:21 UTC] APP_KEY: test
+[10-Jul-2012 14:14:21 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:14:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 14:14:21 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 14:14:21 UTC] PHP Fatal error:  Call to undefined function debug() in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 11
+[10-Jul-2012 14:14:21 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 14:14:21 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 14:14:21 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 14:14:21 UTC] APP_ROUTE: .ico
+[10-Jul-2012 14:14:21 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:14:21 UTC] APP_KEY: favicon
+[10-Jul-2012 14:14:21 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:14:21 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 14:14:50 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 14:14:50 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 14:14:50 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 14:14:50 UTC] APP_ROUTE: /module
+[10-Jul-2012 14:14:50 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:14:50 UTC] APP_KEY: test
+[10-Jul-2012 14:14:50 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:14:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 14:14:50 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 14:14:50 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 14:14:50 UTC] [G87ViewProcessor->process()](line: 11) DEBUG: 1
+[10-Jul-2012 14:14:50 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 14:14:50 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 14:14:50 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 14:14:50 UTC] APP_ROUTE: .ico
+[10-Jul-2012 14:14:50 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:14:50 UTC] APP_KEY: favicon
+[10-Jul-2012 14:14:50 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:14:50 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 14:16:15 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 14:16:15 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 14:16:15 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 14:16:15 UTC] APP_ROUTE: /module
+[10-Jul-2012 14:16:15 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:16:15 UTC] APP_KEY: test
+[10-Jul-2012 14:16:15 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:16:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 14:16:15 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 14:16:15 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 14:16:15 UTC] [G87ViewProcessor->process()](line: 11) DEBUG: 1
+[10-Jul-2012 14:16:15 UTC] ------------------ 1
+[10-Jul-2012 14:16:15 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 14:16:15 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 14:16:15 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 14:16:15 UTC] APP_ROUTE: .ico
+[10-Jul-2012 14:16:15 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:16:15 UTC] APP_KEY: favicon
+[10-Jul-2012 14:16:15 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:16:15 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 14:19:38 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 14:19:38 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 14:19:38 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 14:19:38 UTC] APP_ROUTE: /module
+[10-Jul-2012 14:19:38 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:19:38 UTC] APP_KEY: test
+[10-Jul-2012 14:19:38 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:19:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 14:19:38 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 14:19:38 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 14:19:38 UTC] [G87ViewProcessor->process()](line: 11) DEBUG: 1
+[10-Jul-2012 14:19:38 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 14:19:38 UTC] [Mustache->_varIsCallable()](line: 900) INFO: Looking whether  is callable: 
+[10-Jul-2012 14:19:38 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 14:19:38 UTC] [Mustache->_varIsCallable()](line: 900) INFO: Looking whether world is callable: 
+[10-Jul-2012 14:19:38 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 14:19:38 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 14:19:38 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 14:19:38 UTC] APP_ROUTE: .ico
+[10-Jul-2012 14:19:38 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:19:38 UTC] APP_KEY: favicon
+[10-Jul-2012 14:19:38 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:19:38 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 14:21:19 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 14:21:19 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 14:21:19 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 14:21:19 UTC] APP_ROUTE: /module
+[10-Jul-2012 14:21:19 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:21:19 UTC] APP_KEY: test
+[10-Jul-2012 14:21:19 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:21:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 14:21:19 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 14:21:19 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 14:21:19 UTC] [G87ViewProcessor->process()](line: 11) DEBUG: 1
+[10-Jul-2012 14:21:19 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 14:21:19 UTC] [Mustache->_varIsCallable()](line: 900) INFO: Looking whether  is callable: 
+[10-Jul-2012 14:21:19 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 14:21:19 UTC] [Mustache->_varIsCallable()](line: 900) INFO: Looking whether world is callable: 
+[10-Jul-2012 14:21:19 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 14:21:19 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 14:21:19 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 14:21:19 UTC] APP_ROUTE: .ico
+[10-Jul-2012 14:21:19 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 14:21:19 UTC] APP_KEY: favicon
+[10-Jul-2012 14:21:19 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 14:21:19 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 15:24:24 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 15:24:24 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 15:24:24 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 15:24:24 UTC] APP_ROUTE: /module
+[10-Jul-2012 15:24:24 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 15:24:24 UTC] APP_KEY: test
+[10-Jul-2012 15:24:24 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 15:24:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 15:24:24 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 15:24:24 UTC] PHP Warning:  include(Mustache.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:24:24 UTC] PHP Warning:  include(): Failed opening 'Mustache.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:24:24 UTC] PHP Fatal error:  Class 'Mustache' not found in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 5
+[10-Jul-2012 15:24:24 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 15:24:24 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 15:24:24 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 15:24:24 UTC] APP_ROUTE: .ico
+[10-Jul-2012 15:24:24 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 15:24:24 UTC] APP_KEY: favicon
+[10-Jul-2012 15:24:24 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 15:24:24 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 15:32:12 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 15:32:12 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 15:32:12 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 15:32:12 UTC] APP_ROUTE: /module
+[10-Jul-2012 15:32:12 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 15:32:12 UTC] APP_KEY: test
+[10-Jul-2012 15:32:12 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 15:32:12 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 15:32:12 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 15:32:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 15:32:12 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 15:32:12 UTC] PHP Warning:  require(/var/www/goje87/php/mustache/src/Mustache/Autoloader.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 5
+[10-Jul-2012 15:32:12 UTC] PHP Fatal error:  require(): Failed opening required '/var/www/goje87/php/mustache/src/Mustache/Autoloader.php' (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 5
+[10-Jul-2012 15:32:40 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 15:32:40 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 15:32:40 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 15:32:40 UTC] APP_ROUTE: /module
+[10-Jul-2012 15:32:40 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 15:32:40 UTC] APP_KEY: test
+[10-Jul-2012 15:32:40 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 15:32:40 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 15:32:40 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 15:32:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 15:32:40 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 15:32:40 UTC] PHP Warning:  include(Mustache.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:32:40 UTC] PHP Warning:  include(): Failed opening 'Mustache.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:32:40 UTC] PHP Fatal error:  Class 'Mustache' not found in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 10
+[10-Jul-2012 15:32:40 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 15:32:40 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 15:32:40 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 15:32:40 UTC] APP_ROUTE: .ico
+[10-Jul-2012 15:32:40 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 15:32:40 UTC] APP_KEY: favicon
+[10-Jul-2012 15:32:40 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 15:32:40 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 15:32:40 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 15:32:40 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 15:35:33 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 15:35:33 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 15:35:33 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 15:35:33 UTC] APP_ROUTE: /module
+[10-Jul-2012 15:35:33 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 15:35:33 UTC] APP_KEY: test
+[10-Jul-2012 15:35:33 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 15:35:33 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 15:35:33 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 15:35:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 15:35:33 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 15:35:33 UTC] PHP Warning:  include(Mustache_Engine.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:35:33 UTC] PHP Warning:  include(): Failed opening 'Mustache_Engine.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:35:33 UTC] PHP Fatal error:  Class 'Mustache_Engine' not found in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 10
+[10-Jul-2012 15:42:23 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 15:42:23 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 15:42:23 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 15:42:23 UTC] APP_ROUTE: /module
+[10-Jul-2012 15:42:23 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 15:42:23 UTC] APP_KEY: test
+[10-Jul-2012 15:42:23 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 15:42:23 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 15:42:23 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 15:42:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 15:42:23 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 15:42:23 UTC] PHP Warning:  include(Mustache_Engine.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:42:23 UTC] PHP Warning:  include(): Failed opening 'Mustache_Engine.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:42:23 UTC] PHP Fatal error:  Class 'Mustache_Engine' not found in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 10
+[10-Jul-2012 15:42:23 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 15:42:23 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 15:42:23 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 15:42:23 UTC] APP_ROUTE: .ico
+[10-Jul-2012 15:42:23 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 15:42:23 UTC] APP_KEY: favicon
+[10-Jul-2012 15:42:23 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 15:42:23 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 15:42:23 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 15:42:23 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 15:43:29 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 15:43:29 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 15:43:29 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 15:43:29 UTC] APP_ROUTE: /module
+[10-Jul-2012 15:43:29 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 15:43:29 UTC] APP_KEY: test
+[10-Jul-2012 15:43:29 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 15:43:29 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 15:43:29 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 15:43:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 15:43:29 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 15:43:29 UTC] PHP Fatal error:  Class 'Logger' not found in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 7
+[10-Jul-2012 15:43:29 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 15:43:29 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 15:43:29 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 15:43:29 UTC] APP_ROUTE: .ico
+[10-Jul-2012 15:43:29 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 15:43:29 UTC] APP_KEY: favicon
+[10-Jul-2012 15:43:29 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 15:43:29 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 15:43:29 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 15:43:29 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 15:45:12 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 15:45:12 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 15:45:12 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 15:45:12 UTC] APP_ROUTE: /module
+[10-Jul-2012 15:45:12 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 15:45:12 UTC] APP_KEY: test
+[10-Jul-2012 15:45:12 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 15:45:12 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 15:45:12 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 15:45:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 15:45:12 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 15:45:12 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 15:45:12 UTC] [G87ViewProcessor->init()](line: 6) INFO: 11111111111111111111111111111111111111111111111111111111111
+[10-Jul-2012 15:45:12 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 15:45:12 UTC] [G87ViewProcessor->init()](line: 8) INFO: 2222222222222222222222222222222222222222222222222222222222222
+[10-Jul-2012 15:45:12 UTC] PHP Warning:  include(Mustache_Engine.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:45:12 UTC] PHP Warning:  include(): Failed opening 'Mustache_Engine.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:45:12 UTC] PHP Fatal error:  Class 'Mustache_Engine' not found in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 12
+[10-Jul-2012 15:45:12 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 15:45:12 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 15:45:12 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 15:45:12 UTC] APP_ROUTE: .ico
+[10-Jul-2012 15:45:12 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 15:45:12 UTC] APP_KEY: favicon
+[10-Jul-2012 15:45:12 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 15:45:12 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 15:45:12 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 15:45:12 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 15:48:24 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 15:48:24 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 15:48:24 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 15:48:24 UTC] APP_ROUTE: /module
+[10-Jul-2012 15:48:24 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 15:48:24 UTC] APP_KEY: test
+[10-Jul-2012 15:48:24 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 15:48:24 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 15:48:24 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 15:48:24 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 15:48:24 UTC] [G87ViewProcessor->init()](line: 6) INFO: 11111111111111111111111111111111111111111111111111111111111
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 15:48:24 UTC] [G87ViewProcessor->init()](line: 8) INFO: 2222222222222222222222222222222222222222222222222222222222222
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(Mustache_Engine.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(): Failed opening 'Mustache_Engine.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(Mustache_Loader_StringLoader.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(): Failed opening 'Mustache_Loader_StringLoader.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(Mustache_Loader.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(): Failed opening 'Mustache_Loader.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(Mustache_Compiler.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(): Failed opening 'Mustache_Compiler.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(Mustache_Template.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(): Failed opening 'Mustache_Template.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(Mustache_Context.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(): Failed opening 'Mustache_Context.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(Mustache_HelperCollection.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  include(): Failed opening 'Mustache_HelperCollection.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 15:48:24 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 15:48:24 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 15:48:24 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 15:48:24 UTC] APP_ROUTE: .ico
+[10-Jul-2012 15:48:24 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 15:48:24 UTC] APP_KEY: favicon
+[10-Jul-2012 15:48:24 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 15:48:24 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 15:48:24 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 15:48:24 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 16:54:27 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 16:54:27 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 16:54:27 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 16:54:27 UTC] APP_ROUTE: /module
+[10-Jul-2012 16:54:27 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 16:54:27 UTC] APP_KEY: test
+[10-Jul-2012 16:54:27 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 16:54:27 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 16:54:27 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 16:54:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 16:54:27 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 16:54:27 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 16:54:27 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 16:54:27 UTC] PHP Catchable fatal error:  Argument 1 passed to Mustache_Parser::parse() must be an array, string given, called in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 13 and defined in /private/var/www/goje87/G87/php/mustache/src/Mustache/Parser.php on line 27
+[10-Jul-2012 16:54:27 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 16:54:27 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 16:54:27 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 16:54:27 UTC] APP_ROUTE: .ico
+[10-Jul-2012 16:54:27 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 16:54:27 UTC] APP_KEY: favicon
+[10-Jul-2012 16:54:27 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 16:54:27 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 16:54:27 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 16:54:27 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 16:58:27 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 16:58:27 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 16:58:27 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 16:58:27 UTC] APP_ROUTE: /module
+[10-Jul-2012 16:58:27 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 16:58:27 UTC] APP_KEY: test
+[10-Jul-2012 16:58:27 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 16:58:27 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 16:58:27 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 16:58:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 16:58:27 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 16:58:27 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 16:58:27 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 16:58:27 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 16:58:27 UTC] [G87ViewProcessor->process()](line: 14) DEBUG: Array
+(
+    [0] => Array
+        (
+            [type] => #
+            [name] => controller
+            [otag] => {{
+            [ctag] => }}
+            [index] => 15
+        )
+
+    [1] => Array
+        (
+            [type] => _t
+            [value] => /module/index.controller
+        )
+
+    [2] => Array
+        (
+            [type] => /
+            [name] => controller
+            [otag] => {{
+            [ctag] => }}
+            [index] => 39
+        )
+
+    [3] => Array
+        (
+            [type] => _t
+            [value] => 
+
+        )
+
+    [4] => Array
+        (
+            [type] => ^
+            [name] => controller
+            [otag] => {{
+            [ctag] => }}
+            [index] => 70
+        )
+
+    [5] => Array
+        (
+            [type] => _t
+            [value] => did not find
+        )
+
+    [6] => Array
+        (
+            [type] => /
+            [name] => controller
+            [otag] => {{
+            [ctag] => }}
+            [index] => 82
+        )
+
+    [7] => Array
+        (
+            [type] => _t
+            [value] => 
+
+        )
+
+    [8] => Array
+        (
+            [type] => _t
+            [value] => 
+
+        )
+
+    [9] => Array
+        (
+            [type] => _t
+            [value] => heelo 
+        )
+
+    [10] => Array
+        (
+            [type] => _v
+            [name] => hello
+            [otag] => {{
+            [ctag] => }}
+            [index] => 114
+        )
+
+)
+
+[10-Jul-2012 16:58:27 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 16:58:27 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 16:58:27 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 16:58:27 UTC] APP_ROUTE: .ico
+[10-Jul-2012 16:58:27 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 16:58:27 UTC] APP_KEY: favicon
+[10-Jul-2012 16:58:27 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 16:58:27 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 16:58:27 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 16:58:27 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 17:00:54 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 17:00:54 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 17:00:54 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 17:00:54 UTC] APP_ROUTE: /module
+[10-Jul-2012 17:00:54 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:00:54 UTC] APP_KEY: test
+[10-Jul-2012 17:00:54 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:00:54 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:00:54 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 17:00:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 17:00:54 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 17:00:54 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:00:54 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:00:54 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:00:54 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:00:54 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:00:54 UTC] [G87ViewProcessor->process()](line: 17) DEBUG: Array
+(
+    [0] => Array
+        (
+            [type] => #
+            [name] => controller
+            [otag] => {{
+            [ctag] => }}
+            [index] => 15
+            [end] => 39
+            [nodes] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => _t
+                            [value] => /module/index.controller
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [type] => _t
+            [value] => 
+
+        )
+
+    [2] => Array
+        (
+            [type] => ^
+            [name] => controller
+            [otag] => {{
+            [ctag] => }}
+            [index] => 70
+            [end] => 82
+            [nodes] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => _t
+                            [value] => did not find
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [type] => _t
+            [value] => 
+
+        )
+
+    [4] => Array
+        (
+            [type] => _t
+            [value] => 
+
+        )
+
+    [5] => Array
+        (
+            [type] => _t
+            [value] => heelo 
+        )
+
+    [6] => Array
+        (
+            [type] => _v
+            [name] => hello
+            [otag] => {{
+            [ctag] => }}
+            [index] => 114
+        )
+
+)
+
+[10-Jul-2012 17:00:55 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 17:00:55 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 17:00:55 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 17:00:55 UTC] APP_ROUTE: .ico
+[10-Jul-2012 17:00:55 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:00:55 UTC] APP_KEY: favicon
+[10-Jul-2012 17:00:55 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:00:55 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:00:55 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 17:00:55 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 17:30:03 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 17:30:03 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 17:30:03 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 17:30:03 UTC] APP_ROUTE: /module
+[10-Jul-2012 17:30:03 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:30:03 UTC] APP_KEY: test
+[10-Jul-2012 17:30:03 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:30:03 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:30:03 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 17:30:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 17:30:03 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 17:30:03 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:30:03 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:30:03 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:30:03 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:30:03 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 17:30:03 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 17:30:03 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 17:30:03 UTC] APP_ROUTE: .ico
+[10-Jul-2012 17:30:03 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:30:03 UTC] APP_KEY: favicon
+[10-Jul-2012 17:30:03 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:30:03 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:30:03 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 17:30:03 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 17:31:51 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 17:31:51 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 17:31:51 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 17:31:51 UTC] APP_ROUTE: /module
+[10-Jul-2012 17:31:51 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:31:51 UTC] APP_KEY: test
+[10-Jul-2012 17:31:51 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:31:51 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:31:51 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 17:31:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 17:31:51 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 17:31:51 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:31:51 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:31:51 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:31:51 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:31:52 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 17:31:52 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 17:31:52 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 17:31:52 UTC] APP_ROUTE: .ico
+[10-Jul-2012 17:31:52 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:31:52 UTC] APP_KEY: favicon
+[10-Jul-2012 17:31:52 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:31:52 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:31:52 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 17:31:52 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 17:33:36 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 17:33:36 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 17:33:36 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 17:33:36 UTC] APP_ROUTE: /module
+[10-Jul-2012 17:33:36 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:33:36 UTC] APP_KEY: test
+[10-Jul-2012 17:33:36 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:33:36 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:33:36 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 17:33:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 17:33:36 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 17:33:36 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:33:36 UTC] [G87ViewProcessor->process()](line: 20) DEBUG: -------------------------- /var/www/goje87/test/module/index.view
+[10-Jul-2012 17:33:36 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:33:36 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:33:36 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:33:36 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:33:36 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 17:33:36 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 17:33:36 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 17:33:36 UTC] APP_ROUTE: .ico
+[10-Jul-2012 17:33:36 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:33:36 UTC] APP_KEY: favicon
+[10-Jul-2012 17:33:36 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:33:36 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:33:36 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 17:33:36 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 17:34:41 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 17:34:41 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 17:34:41 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 17:34:41 UTC] APP_ROUTE: /module
+[10-Jul-2012 17:34:41 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:34:41 UTC] APP_KEY: test
+[10-Jul-2012 17:34:41 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:34:41 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:34:41 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 17:34:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 17:34:41 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 17:34:41 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:34:41 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:34:41 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:34:41 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:34:41 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:34:41 UTC] [G87ViewProcessor->getControllerPath()](line: 50) INFO: Array
+(
+    [type] => #
+    [name] => controller
+    [otag] => {{
+    [ctag] => }}
+    [index] => 15
+    [end] => 39
+    [nodes] => Array
+        (
+            [0] => Array
+                (
+                    [type] => _t
+                    [value] => /module/index.controller
+                )
+
+        )
+
+)
+
+[10-Jul-2012 17:34:41 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 17:34:41 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 17:34:41 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 17:34:41 UTC] APP_ROUTE: .ico
+[10-Jul-2012 17:34:41 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:34:41 UTC] APP_KEY: favicon
+[10-Jul-2012 17:34:41 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:34:41 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:34:41 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 17:34:41 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 17:35:47 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 17:35:47 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 17:35:47 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 17:35:47 UTC] APP_ROUTE: /module
+[10-Jul-2012 17:35:47 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:35:47 UTC] APP_KEY: test
+[10-Jul-2012 17:35:47 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:35:47 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:35:47 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 17:35:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 17:35:47 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 17:35:47 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:35:47 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:35:47 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:35:47 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:35:47 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:35:47 UTC] [G87ViewProcessor->getControllerPath()](line: 51) INFO: Array
+(
+    [type] => #
+    [name] => controller
+    [otag] => {{
+    [ctag] => }}
+    [index] => 15
+    [end] => 39
+    [nodes] => Array
+        (
+            [0] => Array
+                (
+                    [type] => _t
+                    [value] => /module/index.controller
+                )
+
+        )
+
+)
+
+[10-Jul-2012 17:35:47 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:35:47 UTC] [G87ViewProcessor->getController()](line: 36) DEBUG: /module/index.controller
+[10-Jul-2012 17:35:47 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 17:35:47 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 17:35:47 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 17:35:47 UTC] APP_ROUTE: .ico
+[10-Jul-2012 17:35:47 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:35:47 UTC] APP_KEY: favicon
+[10-Jul-2012 17:35:47 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:35:47 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:35:47 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 17:35:47 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 17:37:41 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 17:37:41 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 17:37:41 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 17:37:41 UTC] APP_ROUTE: /module
+[10-Jul-2012 17:37:41 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:37:41 UTC] APP_KEY: test
+[10-Jul-2012 17:37:41 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:37:41 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:37:41 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 17:37:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 17:37:41 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 17:37:41 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:37:41 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:37:41 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:37:41 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:37:41 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:37:41 UTC] [G87ViewProcessor->getControllerPath()](line: 51) INFO: Array
+(
+    [type] => #
+    [name] => controller
+    [otag] => {{
+    [ctag] => }}
+    [index] => 15
+    [end] => 39
+    [nodes] => Array
+        (
+            [0] => Array
+                (
+                    [type] => _t
+                    [value] => /module/index.controller
+                )
+
+        )
+
+)
+
+[10-Jul-2012 17:37:41 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:37:41 UTC] [G87ViewProcessor->getController()](line: 36) DEBUG: /var/www/goje87/test/module/index.controller
+[10-Jul-2012 17:37:41 UTC] PHP Warning:  preg_match(): Unknown modifier ']' in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 57
+[10-Jul-2012 17:37:41 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:37:41 UTC] [G87ViewProcessor->getControllerClassName()](line: 58) INFO: 
+[10-Jul-2012 17:37:41 UTC] PHP Fatal error:  Class name must be a valid object or a string in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 40
+[10-Jul-2012 17:38:22 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 17:38:22 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 17:38:22 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 17:38:22 UTC] APP_ROUTE: /module
+[10-Jul-2012 17:38:22 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:38:22 UTC] APP_KEY: test
+[10-Jul-2012 17:38:22 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:38:22 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:38:22 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 17:38:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 17:38:22 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 17:38:22 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:38:22 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:38:22 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:38:22 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:38:22 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:38:22 UTC] [G87ViewProcessor->getControllerPath()](line: 51) INFO: Array
+(
+    [type] => #
+    [name] => controller
+    [otag] => {{
+    [ctag] => }}
+    [index] => 15
+    [end] => 39
+    [nodes] => Array
+        (
+            [0] => Array
+                (
+                    [type] => _t
+                    [value] => /module/index.controller
+                )
+
+        )
+
+)
+
+[10-Jul-2012 17:38:22 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:38:22 UTC] [G87ViewProcessor->getController()](line: 36) DEBUG: /var/www/goje87/test/module/index.controller
+[10-Jul-2012 17:38:22 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:38:22 UTC] [G87ViewProcessor->getControllerClassName()](line: 58) INFO: Array
+(
+    [0] => /index.controller
+)
+
+[10-Jul-2012 17:38:22 UTC] PHP Fatal error:  Class name must be a valid object or a string in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 40
+[10-Jul-2012 17:38:22 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 17:38:22 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 17:38:22 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 17:38:22 UTC] APP_ROUTE: .ico
+[10-Jul-2012 17:38:22 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:38:22 UTC] APP_KEY: favicon
+[10-Jul-2012 17:38:22 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:38:22 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:38:22 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 17:38:22 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 17:39:00 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 17:39:00 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 17:39:00 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 17:39:00 UTC] APP_ROUTE: /module
+[10-Jul-2012 17:39:00 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:39:00 UTC] APP_KEY: test
+[10-Jul-2012 17:39:00 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:39:00 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:39:00 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 17:39:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 17:39:00 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 17:39:00 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:39:00 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:39:00 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:39:00 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:39:00 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:39:00 UTC] [G87ViewProcessor->getControllerPath()](line: 51) INFO: Array
+(
+    [type] => #
+    [name] => controller
+    [otag] => {{
+    [ctag] => }}
+    [index] => 15
+    [end] => 39
+    [nodes] => Array
+        (
+            [0] => Array
+                (
+                    [type] => _t
+                    [value] => /module/index.controller
+                )
+
+        )
+
+)
+
+[10-Jul-2012 17:39:00 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:39:00 UTC] [G87ViewProcessor->getController()](line: 36) DEBUG: /var/www/goje87/test/module/index.controller
+[10-Jul-2012 17:39:00 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:39:00 UTC] [G87ViewProcessor->getControllerClassName()](line: 58) INFO: Array
+(
+    [0] => /index.controller
+    [1] => index.controller
+)
+
+[10-Jul-2012 17:39:00 UTC] PHP Fatal error:  Class name must be a valid object or a string in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 40
+[10-Jul-2012 17:41:44 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 17:41:44 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 17:41:44 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 17:41:44 UTC] APP_ROUTE: /module
+[10-Jul-2012 17:41:44 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:41:44 UTC] APP_KEY: test
+[10-Jul-2012 17:41:44 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:41:44 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:41:44 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 17:41:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 17:41:44 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 17:41:44 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:41:44 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:41:44 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:41:44 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:41:44 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:41:44 UTC] [G87ViewProcessor->getControllerPath()](line: 51) INFO: Array
+(
+    [type] => #
+    [name] => controller
+    [otag] => {{
+    [ctag] => }}
+    [index] => 15
+    [end] => 39
+    [nodes] => Array
+        (
+            [0] => Array
+                (
+                    [type] => _t
+                    [value] => /module/index.controller
+                )
+
+        )
+
+)
+
+[10-Jul-2012 17:41:44 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:41:44 UTC] [G87ViewProcessor->getController()](line: 36) DEBUG: /var/www/goje87/test/module/index.controller
+[10-Jul-2012 17:41:44 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:41:44 UTC] [G87ViewProcessor->getControllerClassName()](line: 58) INFO: Array
+(
+    [0] => /index.controller
+    [1] => x
+)
+
+[10-Jul-2012 17:41:44 UTC] PHP Fatal error:  Class name must be a valid object or a string in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 40
+[10-Jul-2012 17:41:44 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 17:41:44 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 17:41:44 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 17:41:44 UTC] APP_ROUTE: .ico
+[10-Jul-2012 17:41:44 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:41:44 UTC] APP_KEY: favicon
+[10-Jul-2012 17:41:44 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:41:44 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:41:44 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 17:41:44 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 17:42:15 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 17:42:15 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 17:42:15 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 17:42:15 UTC] APP_ROUTE: /module
+[10-Jul-2012 17:42:15 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:42:15 UTC] APP_KEY: test
+[10-Jul-2012 17:42:15 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:42:15 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:42:15 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 17:42:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 17:42:15 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 17:42:15 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:42:15 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:42:15 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:42:15 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:42:15 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:42:15 UTC] [G87ViewProcessor->getControllerPath()](line: 51) INFO: Array
+(
+    [type] => #
+    [name] => controller
+    [otag] => {{
+    [ctag] => }}
+    [index] => 15
+    [end] => 39
+    [nodes] => Array
+        (
+            [0] => Array
+                (
+                    [type] => _t
+                    [value] => /module/index.controller
+                )
+
+        )
+
+)
+
+[10-Jul-2012 17:42:15 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:42:15 UTC] [G87ViewProcessor->getController()](line: 36) DEBUG: /var/www/goje87/test/module/index.controller
+[10-Jul-2012 17:42:15 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:42:15 UTC] [G87ViewProcessor->getControllerClassName()](line: 58) INFO: Array
+(
+    [0] => /index.controller
+    [1] => index
+)
+
+[10-Jul-2012 17:42:15 UTC] PHP Fatal error:  Class name must be a valid object or a string in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 40
+[10-Jul-2012 17:42:15 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 17:42:15 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 17:42:15 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 17:42:15 UTC] APP_ROUTE: .ico
+[10-Jul-2012 17:42:15 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:42:15 UTC] APP_KEY: favicon
+[10-Jul-2012 17:42:15 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:42:15 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:42:15 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 17:42:15 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 17:46:07 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 17:46:07 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 17:46:07 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 17:46:07 UTC] APP_ROUTE: /module
+[10-Jul-2012 17:46:07 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:46:07 UTC] APP_KEY: test
+[10-Jul-2012 17:46:07 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:46:07 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:46:07 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 17:46:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 17:46:07 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 17:46:07 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:46:07 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:46:07 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:46:07 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:46:07 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:46:07 UTC] [G87ViewProcessor->getControllerPath()](line: 51) INFO: Array
+(
+    [type] => #
+    [name] => controller
+    [otag] => {{
+    [ctag] => }}
+    [index] => 15
+    [end] => 39
+    [nodes] => Array
+        (
+            [0] => Array
+                (
+                    [type] => _t
+                    [value] => /module/index.controller
+                )
+
+        )
+
+)
+
+[10-Jul-2012 17:46:07 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:46:07 UTC] [G87ViewProcessor->getController()](line: 36) DEBUG: /var/www/goje87/test/module/index.controller
+[10-Jul-2012 17:46:07 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:46:07 UTC] [G87ViewProcessor->getControllerClassName()](line: 59) INFO: Index
+[10-Jul-2012 17:46:07 UTC] PHP Fatal error:  Class name must be a valid object or a string in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 40
+[10-Jul-2012 17:46:07 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 17:46:07 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 17:46:07 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 17:46:07 UTC] APP_ROUTE: .ico
+[10-Jul-2012 17:46:07 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:46:07 UTC] APP_KEY: favicon
+[10-Jul-2012 17:46:07 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:46:07 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:46:07 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 17:46:07 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 17:53:00 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 17:53:00 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 17:53:00 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 17:53:00 UTC] APP_ROUTE: /module
+[10-Jul-2012 17:53:00 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:53:00 UTC] APP_KEY: test
+[10-Jul-2012 17:53:00 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:53:00 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:53:00 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 17:53:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 17:53:00 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 17:53:00 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:53:00 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:53:00 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:53:00 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:53:00 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:53:00 UTC] [G87ViewProcessor->getControllerPath()](line: 50) INFO: Array
+(
+    [type] => #
+    [name] => controller
+    [otag] => {{
+    [ctag] => }}
+    [index] => 15
+    [end] => 39
+    [nodes] => Array
+        (
+            [0] => Array
+                (
+                    [type] => _t
+                    [value] => /module/index.controller
+                )
+
+        )
+
+)
+
+[10-Jul-2012 17:53:00 UTC] PHP Warning:  include(IndexController.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:53:00 UTC] PHP Warning:  include(): Failed opening 'IndexController.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:53:00 UTC] PHP Fatal error:  Class 'IndexController' not found in /private/var/www/goje87/G87/php/G87ViewProcessor.php on line 39
+[10-Jul-2012 17:53:00 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 17:53:00 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 17:53:00 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 17:53:00 UTC] APP_ROUTE: .ico
+[10-Jul-2012 17:53:00 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:53:00 UTC] APP_KEY: favicon
+[10-Jul-2012 17:53:00 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:53:00 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:53:00 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 17:53:00 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 17:54:12 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 17:54:12 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 17:54:12 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 17:54:12 UTC] APP_ROUTE: /module
+[10-Jul-2012 17:54:12 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:54:12 UTC] APP_KEY: test
+[10-Jul-2012 17:54:12 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:54:12 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:54:12 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 17:54:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 14
+[10-Jul-2012 17:54:12 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 17:54:12 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:54:12 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:54:12 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:54:12 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 17:54:12 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 17:54:12 UTC] [G87ViewProcessor->getControllerPath()](line: 51) INFO: Array
+(
+    [type] => #
+    [name] => controller
+    [otag] => {{
+    [ctag] => }}
+    [index] => 15
+    [end] => 39
+    [nodes] => Array
+        (
+            [0] => Array
+                (
+                    [type] => _t
+                    [value] => /module/index.controller
+                )
+
+        )
+
+)
+
+[10-Jul-2012 17:54:12 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 17:54:12 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 17:54:12 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 17:54:12 UTC] APP_ROUTE: .ico
+[10-Jul-2012 17:54:12 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 17:54:12 UTC] APP_KEY: favicon
+[10-Jul-2012 17:54:12 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 17:54:12 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 17:54:12 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 17:54:12 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 18:07:54 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 18:07:54 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 18:07:54 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 18:07:54 UTC] APP_ROUTE: /module
+[10-Jul-2012 18:07:54 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 18:07:54 UTC] APP_KEY: test
+[10-Jul-2012 18:07:54 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 18:07:54 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 18:07:54 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 18:07:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 18
+[10-Jul-2012 18:07:54 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 18:07:54 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:07:54 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:07:54 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:07:54 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:07:54 UTC] PHP Fatal error:  Abstract function Controller::execute() cannot contain body in /private/var/www/goje87/G87/php/Controller.php on line 13
+[10-Jul-2012 18:07:54 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 18:07:54 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 18:07:54 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 18:07:54 UTC] APP_ROUTE: .ico
+[10-Jul-2012 18:07:54 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 18:07:54 UTC] APP_KEY: favicon
+[10-Jul-2012 18:07:54 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 18:07:54 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 18:07:54 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 18:07:54 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 18:08:49 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 18:08:49 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 18:08:49 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 18:08:49 UTC] APP_ROUTE: /module
+[10-Jul-2012 18:08:49 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 18:08:49 UTC] APP_KEY: test
+[10-Jul-2012 18:08:49 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 18:08:49 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 18:08:49 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 18:08:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 18
+[10-Jul-2012 18:08:49 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 18:08:49 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:08:49 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:08:49 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:08:49 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:08:50 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 18:08:50 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 18:08:50 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 18:08:50 UTC] APP_ROUTE: .ico
+[10-Jul-2012 18:08:50 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 18:08:50 UTC] APP_KEY: favicon
+[10-Jul-2012 18:08:50 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 18:08:50 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 18:08:50 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 18:08:50 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 18:09:56 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 18:09:56 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 18:09:56 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 18:09:56 UTC] APP_ROUTE: /module
+[10-Jul-2012 18:09:56 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 18:09:56 UTC] APP_KEY: test
+[10-Jul-2012 18:09:56 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 18:09:56 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 18:09:56 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 18:09:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 18
+[10-Jul-2012 18:09:56 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 18:09:56 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:09:56 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:09:56 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:09:56 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:09:56 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/Logger.php on line 19
+[10-Jul-2012 18:09:56 UTC] [G87ViewProcessor->getData()](line: 60) DEBUG: {"output":"This one is working"}
+[10-Jul-2012 18:09:56 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 18:09:56 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 18:09:56 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 18:09:56 UTC] APP_ROUTE: .ico
+[10-Jul-2012 18:09:56 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 18:09:56 UTC] APP_KEY: favicon
+[10-Jul-2012 18:09:56 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 18:09:56 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 18:09:56 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 18:09:56 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 18:12:25 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 18:12:25 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 18:12:25 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 18:12:25 UTC] APP_ROUTE: /module
+[10-Jul-2012 18:12:25 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 18:12:25 UTC] APP_KEY: test
+[10-Jul-2012 18:12:25 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 18:12:25 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 18:12:25 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 18
+[10-Jul-2012 18:12:25 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(Mustache_Engine.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(): Failed opening 'Mustache_Engine.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(Mustache_Loader_StringLoader.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(): Failed opening 'Mustache_Loader_StringLoader.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(Mustache_Loader.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(): Failed opening 'Mustache_Loader.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(Mustache_Compiler.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(): Failed opening 'Mustache_Compiler.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(Mustache_Template.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(): Failed opening 'Mustache_Template.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(Mustache_Context.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(): Failed opening 'Mustache_Context.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(Mustache_HelperCollection.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  include(): Failed opening 'Mustache_HelperCollection.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:12:25 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 18:12:25 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 18:12:25 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 18:12:25 UTC] APP_ROUTE: .ico
+[10-Jul-2012 18:12:25 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 18:12:25 UTC] APP_KEY: favicon
+[10-Jul-2012 18:12:25 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 18:12:25 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 18:12:25 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 18:12:25 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
+[10-Jul-2012 18:17:18 UTC] G87_REQUEST_URL: http://goje87.local/test/module/
+[10-Jul-2012 18:17:18 UTC] G87_REQUEST_PATH: http://goje87.local/test/module
+[10-Jul-2012 18:17:18 UTC] APP_REQUEST_ROOT: http://goje87.local/test
+[10-Jul-2012 18:17:18 UTC] APP_ROUTE: /module
+[10-Jul-2012 18:17:18 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 18:17:18 UTC] APP_KEY: test
+[10-Jul-2012 18:17:18 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 18:17:18 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 18:17:18 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/test
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /private/var/www/goje87/G87/php/G87.php on line 18
+[10-Jul-2012 18:17:18 UTC] Gotta process /var/www/goje87/test/module/index.view
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(Mustache_Tokenizer.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(): Failed opening 'Mustache_Tokenizer.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(Mustache_Parser.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(): Failed opening 'Mustache_Parser.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(Mustache_Engine.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(): Failed opening 'Mustache_Engine.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(Mustache_Loader_StringLoader.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(): Failed opening 'Mustache_Loader_StringLoader.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(Mustache_Loader.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(): Failed opening 'Mustache_Loader.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(Mustache_Compiler.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(): Failed opening 'Mustache_Compiler.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(Mustache_Template.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(): Failed opening 'Mustache_Template.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(Mustache_Context.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(): Failed opening 'Mustache_Context.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(Mustache_HelperCollection.php): failed to open stream: No such file or directory in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  include(): Failed opening 'Mustache_HelperCollection.php' for inclusion (include_path='/var/www/goje87/G87/php:/var/www/goje87/G87/php/mustache:.:') in /private/var/www/goje87/G87/init.php on line 27
+[10-Jul-2012 18:17:18 UTC] G87_REQUEST_URL: http://goje87.local/favicon.ico
+[10-Jul-2012 18:17:18 UTC] G87_REQUEST_PATH: http://goje87.local/favicon.ico
+[10-Jul-2012 18:17:18 UTC] APP_REQUEST_ROOT: http://goje87.local/favicon
+[10-Jul-2012 18:17:18 UTC] APP_ROUTE: .ico
+[10-Jul-2012 18:17:18 UTC] G87_REQUEST_ROOT: http://goje87.local
+[10-Jul-2012 18:17:18 UTC] APP_KEY: favicon
+[10-Jul-2012 18:17:18 UTC] G87_REQUEST_QUERY: 
+[10-Jul-2012 18:17:18 UTC] G87_DOCUMENT_ROOT: /var/www/goje87
+[10-Jul-2012 18:17:18 UTC] APP_DOCUMENT_ROOT: /var/www/goje87/favicon
+[10-Jul-2012 18:17:18 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Calcutta' for 'IST/5.0/no DST' instead in /private/var/www/goje87/G87/php/phpinfo.php on line 2
