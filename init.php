@@ -8,6 +8,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 
 // start the sesstion
 session_start();
+date_default_timezone_set("Asia/Calcutta");
 
 $G87DocumentRoot = $_SERVER['DOCUMENT_ROOT'];
 $G87RequestUrl = "http://{$_SERVER['SERVER_NAME']}{$_SERVER['REQUEST_URI']}";
@@ -24,7 +25,10 @@ set_include_path(implode(PATH_SEPARATOR, $includeFolders));
 
 function autoload($className)
 {
-  include "$className.php";
+  try {
+    include "$className.php";
+  }
+  catch (Exception $ex) { }
 }
 spl_autoload_register('autoload');
 

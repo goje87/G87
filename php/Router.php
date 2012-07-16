@@ -11,6 +11,9 @@ class Router {
       $path .= "/index.view";
       if(is_file($path)) return $path;
     }
+    else if(is_file($path)) {
+      return $path;
+    }
     else {
       $pattern = "@\/(([a-zA-Z0-9_\-.])+$)@";
       preg_match($pattern, $path, $matches);

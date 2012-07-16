@@ -57,11 +57,21 @@ class G87ViewProcessor {
   }
   
   protected function getData($controller) {
+    if(!$controller) return "";
     return $controller->getResponse();
   }
   
   protected function getResponseString($template, $data) {
-    $m = new Mustache_Engine;
+    $m = new Mustache_Engine(array(
+      "helpers" => array(
+        "bold" => function($text) {
+          return "<b>$text</b>";
+        },
+        "include" => function($text) {
+          $path = Router::getPath($text);
+          $viewProcessor = new G87ViewProcessor($path);
+          return $viewProcessor->process();
+        })));
     return $m->render($template, $data);
   }
   
