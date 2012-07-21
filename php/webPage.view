@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>{{pageTitle}}</title>
+    {{#stylesheets}}
+      <link rel="stylesheet" href="{{.}}" />
+    {{/stylesheets}}
+    {{#scripts}}
+      <script language="javascript" src="{{.}}"></script>
+    {{/scripts}}
+  </head>
+  <body>
+    {{&body}}
+  </body>
+</html>

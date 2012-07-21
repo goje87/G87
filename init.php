@@ -25,10 +25,7 @@ set_include_path(implode(PATH_SEPARATOR, $includeFolders));
 
 function autoload($className)
 {
-  try {
-    include "$className.php";
-  }
-  catch (Exception $ex) { }
+    @include "$className.php";
 }
 spl_autoload_register('autoload');
 

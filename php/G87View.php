@@ -1,9 +1,33 @@
 <?php
-class G87ViewProcessor {
+class G87View {
   
   public static function init() {
     require G87_DOCUMENT_ROOT."/G87/php/mustache/src/Mustache/Autoloader.php";
     Mustache_Autoloader::register();
+    
+    self::$helpers = array(
+      "include" => function($content) {
+        $path = Router::getPath($content);
+        $viewProcessor = new G87View($path);
+        return $viewProcessor->process();
+      },
+      
+      "const" => function($content) {
+        return constant($content);
+      },
+      
+      "pageTitle" => function($content) {
+        G87::setPageTitle($content);
+        return "";
+      },
+      "stylesheet" => function($content) {
+        G87::addStylesheet($content);
+        return "";
+      },
+      "script" => function($content) {
+        G87::addScript($content);
+        return "";
+      });
   }
   
   protected $path;
@@ -11,9 +35,15 @@ class G87ViewProcessor {
   protected $controller;
   protected $data;
   protected $response;
+  protected static $helpers;
   
-  public function __construct($path) {
+  public function __construct($path, $data = array()) {
     $this->path = $path;
+    $this->data = (array) $data;
+  }
+  
+  public function addHelper($name, $handler) {
+    self::$helpers[$name] = $handler;
   }
   
   public function process() {
@@ -21,7 +51,7 @@ class G87ViewProcessor {
     
     $this->template = $this->getTemplate($this->path);
     $this->controller = $this->getController($this->template);
-    $this->data = $this->getData($this->controller);
+    $this->data = array_merge($this->data, (array)$this->getData($this->controller));
     $this->response = $this->getResponseString($this->template, $this->data);
     
     return $this->response;
@@ -48,7 +78,7 @@ class G87ViewProcessor {
     $tree = $parser->parse($tokens);
     
     $firstNode = $tree[0];
-    if($firstNode['type'] == "#" && $firstNode['name'] == "controller") return APP_DOCUMENT_ROOT.$firstNode['nodes'][0]['value'];
+    if($firstNode['type'] == "#" && $firstNode['name'] == "controller") return Router::getPath($firstNode['nodes'][0]['value']);
   }
   
   protected function getControllerClassName($path) {
@@ -61,21 +91,19 @@ class G87ViewProcessor {
     return $controller->getResponse();
   }
   
-  protected function getResponseString($template, $data) {
+  protected function getResponseString($template, $data = array()) {
     $m = new Mustache_Engine(array(
-      "helpers" => array(
-        "bold" => function($text) {
-          return "<b>$text</b>";
-        },
-        "include" => function($text) {
-          $path = Router::getPath($text);
-          $viewProcessor = new G87ViewProcessor($path);
-          return $viewProcessor->process();
-        })));
+      "helpers" => self::$helpers));
+    return $m->render($template, $data);
+  }
+  
+  public static function quickRender($template, $data = array()) {
+    $m = new Mustache_Engine(array(
+      "helpers" => self::$helpers));
     return $m->render($template, $data);
   }
   
 }
 
-G87ViewProcessor::init();
+G87View::init();
 ?>

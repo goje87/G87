@@ -1,6 +1,9 @@
 <?php 
 class G87 {
   public static $request;
+  protected static $stylesheets = array();
+  protected static $scripts = array();
+  protected static $pageTitle = "";
   
   public static function init() {
     self::$request = (object) $_REQUEST;
@@ -26,8 +29,7 @@ class G87 {
     $extension = $matches[1];
     switch ($extension) {
       case 'view':
-        $viewProcessor = new G87ViewProcessor($path);
-        $response = $viewProcessor->process();
+        $response = self::renderView($path);
         G87::respond($response);
         break;
       case 'controller':
@@ -41,6 +43,41 @@ class G87 {
         break;
     }
     
+  }
+  
+  protected static function renderView($path) {
+    self::addStylesheet(G87_REQUEST_ROOT."/G87/js/basic.css");
+    self::addScript(G87_REQUEST_ROOT."/G87/js/basic.js");
+    
+    $view = new G87View($path);
+    $viewResponse = $view->process();
+    
+    $gViewPath = Router::getPath("/gTemplate.view");
+    $gView = new G87View($gViewPath, array("mainContent" => $viewResponse));
+    $gViewResponse = $gView->process();
+    
+    $hViewPath = G87_DOCUMENT_ROOT."/G87/php/webPage.view";
+    $hView = new G87View($hViewPath, array(
+      "body" => $gViewResponse,
+      "stylesheets" => self::$stylesheets,
+      "scripts" => self::$scripts,
+      "pageTitle" => self::$pageTitle));
+    return $hView->process();
+  }
+  
+  public static function addStylesheet($path) {
+    $path = G87View::quickRender($path);
+    self::$stylesheets[] = $path;
+  }
+  
+  public static function addScript($path) {
+    $path = G87View::quickRender($path);
+    self::$scripts[] = $path;
+  }
+  
+  public static function setPageTitle($title) {
+    $title = G87View::quickRender($title);
+    self::$pageTitle = $title;
   }
 }
 
