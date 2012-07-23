@@ -1,5 +1,8 @@
 <?php 
 class G87 {
+  const RESPONSE_200 = "response200";
+  const RESPONSE_404 = "response404";
+  
   public static $request;
   protected static $stylesheets = array();
   protected static $scripts = array();
@@ -9,7 +12,17 @@ class G87 {
     self::$request = (object) $_REQUEST;
   }
   
-  public static function respond($data) {
+  public static function respond($data, $type = self::RESPONSE_200) {
+    switch($type) {
+      case self::RESPONSE_200:
+        header("HTTP/1.0 200 OK");
+        header("Status: 200 OK");
+        break;
+      case self::RESPONSE_404:
+        header("HTTP/1.0 404 Not Found");
+        header("Status: 404 Not Found");
+        break;
+    }
     echo $data;
   }
   
@@ -24,20 +37,20 @@ class G87 {
     }
   }
   
-  public static function render($path) {
+  public static function render($path, $type = self::RESPONSE_200) {
     preg_match("/\.([a-zA-Z0-9]+)$/", $path, $matches);
     $extension = $matches[1];
     switch ($extension) {
       case 'view':
         $response = self::renderView($path);
-        G87::respond($response);
+        G87::respond($response, $type);
         break;
       case 'controller':
         break;
       case 'php':
         include($path);
       case 'html':
-        G87::respond(file_get_contents($path));
+        G87::respond(file_get_contents($path), $type);
       default:
         echo "unable to render file of type $extension...";
         break;
@@ -78,6 +91,13 @@ class G87 {
   public static function setPageTitle($title) {
     $title = G87View::quickRender($title);
     self::$pageTitle = $title;
+  }
+  
+  public static function parseQueryString($queryString) {
+    parse_str($queryString, $pairs);
+    foreach($pairs as $key => $value) {
+      G87::$request->$key = urldecode($value);
+    }
   }
 }
 

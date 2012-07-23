@@ -46,6 +46,12 @@ class Utils
     
     return true;
   }
+  
+  public static function getFileContents($path) {
+    if(!is_file($path)) return false;
+    
+    return file_get_contents($path);
+  }
 }
 
 ?>

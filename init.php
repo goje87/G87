@@ -12,7 +12,8 @@ date_default_timezone_set("Asia/Calcutta");
 
 $G87DocumentRoot = $_SERVER['DOCUMENT_ROOT'];
 $G87RequestUrl = "http://{$_SERVER['SERVER_NAME']}{$_SERVER['REQUEST_URI']}";
-$G87RequestQuery = $_SERVER['QUERY_STRING'];
+// $G87RequestQuery = $_SERVER['QUERY_STRING'];
+$G87RequestQuery = parse_url($G87RequestUrl, PHP_URL_QUERY);
 $G87RequestPath = str_replace("?$G87RequestQuery", "", $G87RequestUrl);
 $G87RequestPath = preg_replace("#\/$#", "", $G87RequestPath);
 
@@ -80,6 +81,7 @@ $constants = array(
 foreach($constants as $constant) {
   error_log("$constant: ".constant($constant));
 }
+G87::parseQueryString(G87_REQUEST_QUERY);
 
 G87::parseConfig(APP_DOCUMENT_ROOT."/appConfig.json");
 

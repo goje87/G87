@@ -1,1 +1,2 @@
 php_value auto_prepend_file "&{g87_document_root}/G87/init.php"
+ErrorDocument 404 /G87/php/phpinfo.php
