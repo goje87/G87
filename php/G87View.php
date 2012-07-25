@@ -65,9 +65,10 @@ class G87View {
     $path = $this->getControllerPath($template);
     if(!$path || !file_exists($path)) return;
     
-    include_once($path);
-    $controllerClass = $this->getControllerClassName($path);
-    return new $controllerClass;
+    // include_once($path);
+    // $controllerClass = $this->getControllerClassName($path);
+    // return new $controllerClass;
+    return G87::getControllerFromPath($path);
   }
   
   protected function getControllerPath($template) {
@@ -81,10 +82,10 @@ class G87View {
     if($firstNode['type'] == "#" && $firstNode['name'] == "controller") return Router::getPath($firstNode['nodes'][0]['value']);
   }
   
-  protected function getControllerClassName($path) {
-    preg_match("@\/([^/^\.]+)\.[^/^\.]+$@i", $path, $matches);
-    return ucfirst($matches[1])."Controller";
-  }
+  // protected function getControllerClassName($path) {
+    // preg_match("@\/([^/^\.]+)\.[^/^\.]+$@i", $path, $matches);
+    // return ucfirst($matches[1])."Controller";
+  // }
   
   protected function getData($controller) {
     if(!$controller) return "";

@@ -14,15 +14,14 @@ class G87 {
   
   public static function respond($data, $type = self::RESPONSE_200) {
     switch($type) {
-      case self::RESPONSE_200:
-        header("HTTP/1.0 200 OK");
-        header("Status: 200 OK");
-        break;
-      case self::RESPONSE_404:
-        header("HTTP/1.0 404 Not Found");
-        header("Status: 404 Not Found");
-        break;
+      case self::RESPONSE_200: $code = "200 OK"; break;
+      case self::RESPONSE_404: $code = "404 Not Found"; break;
+      default:
+      case self::RESPONSE_500: $code = "500 Internal Server Error"; break;
     }
+    
+    header("HTTP/1.0 $code");
+    header("Status: $code");
     echo $data;
   }
   
@@ -46,13 +45,17 @@ class G87 {
         G87::respond($response, $type);
         break;
       case 'controller':
+        $controller = self::getControllerFromPath($path);
+        $response = $controller->getResponse(true);
+        G87::respond($response, $type);
         break;
       case 'php':
         include($path);
+        break;
       case 'html':
         G87::respond(file_get_contents($path), $type);
       default:
-        echo "unable to render file of type $extension...";
+        G87::respond("unable to render file of type $extension...", self::RESPONSE_500);
         break;
     }
     
@@ -98,6 +101,16 @@ class G87 {
     foreach($pairs as $key => $value) {
       G87::$request->$key = urldecode($value);
     }
+  }
+  
+  public static function getControllerFromPath($path) {
+    if(!$path || !file_exists($path)) return;
+    
+    include_once($path);
+    preg_match("@\/([^/^\.]+)\.[^/^\.]+$@i", $path, $matches);
+    $controllerClass = ucfirst($matches[1])."Controller";
+    
+    return new $controllerClass;
   }
 }
 

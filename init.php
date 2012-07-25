@@ -79,18 +79,25 @@ $constants = array(
   "APP_DOCUMENT_ROOT");
 
 foreach($constants as $constant) {
-  error_log("$constant: ".constant($constant));
+  Logger::debug("$constant: ".constant($constant));
 }
+
+// If this page is being hit due to a 404 redirect (from .htaccess file)
+// query string will not be automatically parsed to $_REQUEST resulting in
+// empty G87::$request. This function will parse it explicitly and populate
+// G87::$request (only).
 G87::parseQueryString(G87_REQUEST_QUERY);
 
+// Parse the application's config file (if present).
 G87::parseConfig(APP_DOCUMENT_ROOT."/appConfig.json");
 
 // Execute the appInit.php (if present).
 if(file_exists(APP_DOCUMENT_ROOT."/appInit.php")) include(APP_DOCUMENT_ROOT."/appInit.php");
 
+// Try to route the request to the script file.
 $path = Router::getPath(APP_ROUTE);
 if($path) {
-  error_log("Gotta process $path");
+  Logger::debug("Gotta process $path");
   G87::render($path);
   exit; 
 }

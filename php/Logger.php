@@ -1,7 +1,6 @@
 <?php
 class Logger
 {
-  public static $outputFile;
   const OUTPUT_TYPE_ERROR = 0;
   const OUTPUT_TYPE_INFO = 1;
   const OUTPUT_TYPE_DEBUG = 2;
@@ -13,9 +12,6 @@ class Logger
     // First check the output type is within $outputLevel
 	  if($type > self::$outputLevel) return;
     
-    $outputFile = (self::$outputFile)?(self::$outputFile):"{$_SERVER['DOCUMENT_ROOT']}/G87/logs/php_log.txt";
-	
-    $file = fopen($outputFile, 'a');
     $time = date("d-m-Y H:i:s");
     
     $trace = debug_backtrace();
@@ -43,12 +39,10 @@ class Logger
         $outputType = "DEBUG";
         break;
     }
-	
-    $output = "[$class->$function()](line: $line) $outputType: $msg";
     
-	error_log($output);
-    // fwrite($file, $output);
-    fclose($file);
+    $output = "[$class::$function()](line: $line) $outputType: $msg";
+    
+	  error_log($output);
   }
   
   public static function info($msg)
