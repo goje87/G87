@@ -1,0 +1,8 @@
+<?php
+class ErrorController extends Controller {
+  protected function execute() {
+    $statusCode = $_SERVER['REDIRECT_STATUS'];
+    $this->response->output = Utils::getClassConst("G87", "STATUS_$statusCode");
+  }
+}
+?>

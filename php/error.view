@@ -1,0 +1,8 @@
+{{#controller}}/../G87/php/error.controller{{/controller}}
+<center>
+  <img src="{{#const}}G87_REQUEST_ROOT{{/const}}/G87/images/g-logo-wide-128.png" />
+  <h1>ERROR!! {{output}}</h1>
+</center>
+<pre>
+  {{data}}
+</pre>

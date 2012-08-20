@@ -1,7 +1,12 @@
 <?php 
 class G87 {
-  const RESPONSE_200 = "response200";
-  const RESPONSE_404 = "response404";
+  const STATUS_200 = "200 OK";
+  const STATUS_400 = "400 Bad Request";
+  const STATUS_401 = "401 Unauthorized";
+  const STATUS_403 = "403 Forbidden";
+  const STATUS_404 = "404 Not Found";
+  const STATUS_500 = "500 Internal Server Error";
+  
   
   public static $request;
   protected static $stylesheets = array();
@@ -12,16 +17,9 @@ class G87 {
     self::$request = (object) $_REQUEST;
   }
   
-  public static function respond($data, $type = self::RESPONSE_200) {
-    switch($type) {
-      case self::RESPONSE_200: $code = "200 OK"; break;
-      case self::RESPONSE_404: $code = "404 Not Found"; break;
-      default:
-      case self::RESPONSE_500: $code = "500 Internal Server Error"; break;
-    }
-    
-    header("HTTP/1.0 $code");
-    header("Status: $code");
+  public static function respond($data, $status = self::STATUS_200) {
+    header("HTTP/1.0 $status");
+    header("Status: $status");
     echo $data;
   }
   
@@ -36,9 +34,10 @@ class G87 {
     }
   }
   
-  public static function render($path, $type = self::RESPONSE_200) {
+  public static function render($path, $type = self::STATUS_200) {
     preg_match("/\.([a-zA-Z0-9]+)$/", $path, $matches);
     $extension = $matches[1];
+    
     switch ($extension) {
       case 'view':
         $response = self::renderView($path);
@@ -55,7 +54,7 @@ class G87 {
       case 'html':
         G87::respond(file_get_contents($path), $type);
       default:
-        G87::respond("unable to render file of type $extension...", self::RESPONSE_500);
+        G87::respond("unable to render file of type $extension...", self::STATUS_500);
         break;
     }
     
@@ -69,6 +68,7 @@ class G87 {
     $viewResponse = $view->process();
     
     $gViewPath = Router::getPath("/gTemplate.view");
+    if(!$gViewPath) $gViewPath = G87_DOCUMENT_ROOT."/G87/php/gTemplate.view";
     $gView = new G87View($gViewPath, array("mainContent" => $viewResponse));
     $gViewResponse = $gView->process();
     

@@ -52,6 +52,11 @@ class Utils
     
     return file_get_contents($path);
   }
+  
+  public static function getClassConst($class, $const) {
+    $obj = new ReflectionClass($class);
+    return $obj->getConstant($const);
+  }
 }
 
 ?>

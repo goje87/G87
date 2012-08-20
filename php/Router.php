@@ -18,16 +18,6 @@ class Router {
       $path .= "/index";
     }
     
-    // $pattern = "@\/(([a-zA-Z0-9_\-.])+$)@";
-    // preg_match($pattern, $path, $matches);
-    // $endPoint = $matches[1];
-    // $path = preg_replace($pattern, "", $path);
-    // $searchPath = "$path/$endPoint.view";
-    // if(is_file($searchPath)) return $searchPath;
-//     
-    // $searchPath = "$path/$endPoint.php";
-    // if(is_file($searchPath)) return $searchPath;
-    
     foreach(self::$extensions as $extension) {
       $searchPath = "$path.$extension";
       if(is_file($searchPath)) return $searchPath;
