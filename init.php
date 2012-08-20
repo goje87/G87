@@ -1,5 +1,5 @@
 <?php
-
+$g87ScriptStartTime = microtime(true);
 // set the log_errors flag to true and indicate to the system that it has to print the errors 
 // in the file pointed by variable 'error_log'
 ini_set("log_errors", "1");
@@ -99,6 +99,9 @@ $path = Router::getPath(APP_ROUTE);
 if($path) {
   Logger::debug("Gotta process $path");
   G87::render($path);
+  $g87ScriptEndTime = microtime(true);
+  $g87ScriptTotalTime = $g87ScriptEndTime - $g87ScriptStartTime;
+  Logger::debug("Total time for execution of script: $g87ScriptTotalTime seconds");
   exit; 
 }
 
